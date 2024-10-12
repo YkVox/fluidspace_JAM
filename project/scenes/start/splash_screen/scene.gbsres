@@ -8,7 +8,10 @@
   "width": 20,
   "height": 18,
   "type": "LOGO",
-  "paletteIds": [],
+  "paletteIds": [
+    null,
+    "dmg"
+  ],
   "spritePaletteIds": [
     "dmg"
   ],
@@ -21,8 +24,9 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 2,
-        "frames": 30
+        "time": 4,
+        "frames": 30,
+        "__collapse": true
       },
       "id": "df7635fd-e358-4869-9a47-4d193cf88f42"
     },
@@ -40,7 +44,7 @@
         },
         "direction": "",
         "fadeSpeed": "2",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "076ebabf-a46c-4bdd-bf83-13bbf0d18866"
     }
@@ -48,5 +52,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }
