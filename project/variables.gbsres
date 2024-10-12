@@ -2,14 +2,14 @@
   "_resourceType": "variables",
   "variables": [
     {
-      "id": "34adad07-6df0-4f20-b9be-649cde0bd41b__L0",
-      "name": "START",
-      "symbol": "var_start"
-    },
-    {
       "id": "0",
       "name": "GAME_FINISHED",
       "symbol": "var_game_finished_0"
+    },
+    {
+      "id": "34adad07-6df0-4f20-b9be-649cde0bd41b__L0",
+      "name": "START",
+      "symbol": "var_start"
     },
     {
       "id": "5273e55b-3efe-4fa4-bc01-d5c2479f792a__L0",
