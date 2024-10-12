@@ -13,40 +13,9 @@
   "collisions": "001680+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 320,
-  "y": 496,
-  "script": [
-    {
-      "command": "EVENT_IF_ACTOR_AT_POSITION",
-      "args": {
-        "actorId": "$self$",
-        "x": {
-          "type": "variable",
-          "value": "0"
-        },
-        "y": {
-          "type": "property",
-          "target": "player",
-          "property": "xpos"
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_SPRITE",
-            "args": {
-              "actorId": "$self$",
-              "spriteSheetId": "b610b38d-46b6-4d31-ab98-260b34c68f88"
-            },
-            "id": "fe01e8dc-8088-44a4-b416-bb809d3a4d8e"
-          }
-        ],
-        "false": []
-      },
-      "id": "904b3974-37ed-490e-9e8f-6dc1e14ad732"
-    }
-  ],
+  "x": 288,
+  "y": 512,
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

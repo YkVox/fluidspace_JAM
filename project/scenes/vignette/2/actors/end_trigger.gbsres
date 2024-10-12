@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "57cddea1-8ca2-4c81-9bb9-a691898a38ab",
+  "id": "b3c3b59e-e657-4edf-8a24-68df8c6ce1ec",
   "name": "END_TRIGGER",
   "frame": 0,
   "animate": false,
@@ -133,11 +133,11 @@
     "73efd569-afc5-4b78-ab95-6082379b2a35": {
       "id": "73efd569-afc5-4b78-ab95-6082379b2a35",
       "args": {
-        "sceneId": "aea44e35-4de7-416f-84a1-b34a901456a0"
+        "sceneId": "d30cacec-d07a-49fa-b075-0998ded30f0c"
       }
     }
   },
-  "symbol": "actor_0",
+  "symbol": "actor_1",
   "script": [],
   "startScript": [],
   "updateScript": [],
