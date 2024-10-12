@@ -1,0 +1,56 @@
+{
+  "_resourceType": "scene",
+  "id": "515a5393-c8dd-479b-ba1b-76f3d78d1dca",
+  "_index": 0,
+  "name": "START/Splash screen",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 288,
+  "y": 48,
+  "script": [
+    {
+      "command": "EVENT_RNG_SEED",
+      "args": {},
+      "id": "774b4c44-f1d1-4a90-a226-45afd07ede9d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "83453c68-0326-4a2c-a6a3-5dfd0298de2c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "ef75730f-9d82-486a-8efa-a7aae082c1af",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 3,
+        "__collapse": true
+      },
+      "id": "fdb28ecd-44fd-487b-9632-bda651896c0d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}
