@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
   "id": "aea44e35-4de7-416f-84a1-b34a901456a0",
-  "_index": 6,
+  "_index": 4,
   "name": "VIGNETTE/2",
-  "backgroundId": "3b7119d0-839b-41c6-9525-d67c28eca7d6",
+  "backgroundId": "0fa60a99-f227-4d03-9663-120f217a5293",
   "tilesetId": "",
   "width": 80,
   "height": 72,

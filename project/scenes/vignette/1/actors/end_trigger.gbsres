@@ -135,6 +135,41 @@
       "args": {
         "sceneId": "aea44e35-4de7-416f-84a1-b34a901456a0"
       }
+    },
+    "1caffa71-a98e-46a0-9971-46e0ba0c1491": {
+      "id": "1caffa71-a98e-46a0-9971-46e0ba0c1491",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "lte",
+            "valueA": {
+              "type": "number",
+              "value": 0
+            },
+            "valueB": {
+              "type": "number",
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "3c4c140d-19f3-491e-9a4e-f610d07d382b": {
+      "id": "3c4c140d-19f3-491e-9a4e-f610d07d382b",
+      "args": {
+        "sceneId": "aea44e35-4de7-416f-84a1-b34a901456a0"
+      }
+    },
+    "25194959-a6c7-4a17-9e44-be4d3315ff20": {
+      "id": "25194959-a6c7-4a17-9e44-be4d3315ff20",
+      "args": {
+        "__collapseElse": false
+      }
     }
   },
   "symbol": "actor_0",

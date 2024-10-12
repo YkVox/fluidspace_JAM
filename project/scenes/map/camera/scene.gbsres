@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
-  "id": "250b1383-7739-4477-917d-8ebdc15ebfeb",
-  "_index": 5,
+  "id": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978",
+  "_index": 7,
   "name": "MAP/CAMERA",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
@@ -13,10 +13,12 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
-  "x": 600,
-  "y": 1160,
+  "x": 1288,
+  "y": 1368,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "1b96edde-7e96-4420-9739-8f87d6aed4e7",
+  "autoFadeEventCollapse": true
 }

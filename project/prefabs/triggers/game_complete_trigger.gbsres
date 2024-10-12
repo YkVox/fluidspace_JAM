@@ -1,0 +1,23 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "5be72d7b-a8c8-4198-89ce-92212dd1cc31",
+  "name": "GAME_COMPLETE_TRIGGER",
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+      },
+      "id": "0758e8ba-a829-4e05-bc73-4ab277d76fec"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+      },
+      "id": "26360725-6b1b-492a-9686-c8ddff40dbeb"
+    }
+  ]
+}
