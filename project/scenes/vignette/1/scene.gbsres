@@ -3,20 +3,53 @@
   "id": "5273e55b-3efe-4fa4-bc01-d5c2479f792a",
   "_index": 3,
   "name": "VIGNETTE/1",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "3b7119d0-839b-41c6-9525-d67c28eca7d6",
   "tilesetId": "",
-  "width": 20,
-  "height": 18,
+  "width": 80,
+  "height": 72,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "001680+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 338,
-  "y": 545,
-  "script": [],
+  "x": 320,
+  "y": 496,
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "variable",
+          "value": "0"
+        },
+        "y": {
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "b610b38d-46b6-4d31-ab98-260b34c68f88"
+            },
+            "id": "fe01e8dc-8088-44a4-b416-bb809d3a4d8e"
+          }
+        ],
+        "false": []
+      },
+      "id": "904b3974-37ed-490e-9e8f-6dc1e14ad732"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "1b96edde-7e96-4420-9739-8f87d6aed4e7",
+  "autoFadeEventCollapse": true
 }
