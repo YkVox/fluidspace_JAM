@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7b6e0156-3e59-4551-84e0-3d91b2ce373c",
+  "_index": 4,
+  "name": "VIGNETTE/2",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 544,
+  "y": 536,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "250b1383-7739-4477-917d-8ebdc15ebfeb",
+  "_index": 7,
+  "name": "MAP/CAMERA",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 336,
+  "y": 928,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

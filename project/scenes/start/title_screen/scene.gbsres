@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "ef75730f-9d82-486a-8efa-a7aae082c1af",
+  "_index": 1,
+  "name": "START/Title Screen",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 520,
+  "y": 312,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
