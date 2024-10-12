@@ -17,6 +17,14 @@
   "y": 312,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "9de8369b-1e18-4c96-8e8a-fa904506923e"
+    },
+    {
       "command": "EVENT_MENU",
       "args": {
         "variable": "L0",
@@ -50,7 +58,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
