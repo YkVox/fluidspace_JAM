@@ -157,7 +157,7 @@
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 24
         },
         "sceneId": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978"
       }
