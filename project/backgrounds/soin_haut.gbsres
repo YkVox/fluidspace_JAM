@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "dc91d05d-9a57-4447-91f3-64f0609d2b52",
+  "name": "soin_haut",
+  "symbol": "bg_soin_haut",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "soin_haut.png",
+  "tileColors": ""
+}

@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 864,
   "filename": "BG_phone.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
