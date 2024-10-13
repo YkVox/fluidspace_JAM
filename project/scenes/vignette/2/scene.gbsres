@@ -19,7 +19,7 @@
     ""
   ],
   "spritePaletteIds": [
-    "default-bg-2"
+    "default-sprite"
   ],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,
