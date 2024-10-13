@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 480,
-  "y": 920,
+  "x": 512,
+  "y": 1368,
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -95,6 +95,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "1b96edde-7e96-4420-9739-8f87d6aed4e7",
+  "playerSpriteSheetId": "9bd0c17b-2d32-4099-8fe4-5ca309743381",
   "autoFadeEventCollapse": false
 }

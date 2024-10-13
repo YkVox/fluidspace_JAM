@@ -108,20 +108,20 @@
           "target": "$self$",
           "property": "ypos"
         },
-        "__collapseElse": false,
+        "__collapseElse": true,
         "actorId": "player"
       }
     },
     "713402bb-e240-46cd-ae44-60c37fb76647": {
       "id": "713402bb-e240-46cd-ae44-60c37fb76647",
       "args": {
-        "spriteSheetId": "b610b38d-46b6-4d31-ab98-260b34c68f88"
+        "spriteSheetId": "022530e0-e1f9-4adc-b7c0-c03695711903"
       }
     },
     "1603c101-e73c-4f5e-8df3-b3276b5e84c2": {
       "id": "1603c101-e73c-4f5e-8df3-b3276b5e84c2",
       "args": {
-        "spriteSheetId": "1b96edde-7e96-4420-9739-8f87d6aed4e7"
+        "spriteSheetId": "7ae38a02-2524-4179-99f0-f9b636c2e860"
       }
     },
     "9a7bd8e8-b5af-4b5d-933a-fd64055fd744": {

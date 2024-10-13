@@ -115,13 +115,13 @@
     "713402bb-e240-46cd-ae44-60c37fb76647": {
       "id": "713402bb-e240-46cd-ae44-60c37fb76647",
       "args": {
-        "spriteSheetId": "b610b38d-46b6-4d31-ab98-260b34c68f88"
+        "spriteSheetId": "7ae38a02-2524-4179-99f0-f9b636c2e860"
       }
     },
     "1603c101-e73c-4f5e-8df3-b3276b5e84c2": {
       "id": "1603c101-e73c-4f5e-8df3-b3276b5e84c2",
       "args": {
-        "spriteSheetId": "1b96edde-7e96-4420-9739-8f87d6aed4e7"
+        "spriteSheetId": "3a95b307-462d-4bfc-a699-703be2cd9fa3"
       }
     },
     "9a7bd8e8-b5af-4b5d-933a-fd64055fd744": {
@@ -146,6 +146,19 @@
       "id": "25194959-a6c7-4a17-9e44-be4d3315ff20",
       "args": {
         "__collapseElse": false
+      }
+    },
+    "b6321ff9-e8ee-43c4-983e-c614dedc036b": {
+      "id": "b6321ff9-e8ee-43c4-983e-c614dedc036b",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 255
+        }
       }
     }
   },

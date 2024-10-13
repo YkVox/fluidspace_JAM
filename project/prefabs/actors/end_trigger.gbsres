@@ -35,27 +35,16 @@
           "type": "number",
           "value": 0
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "0",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "9f3d350b-d3b5-4409-84ae-6e93172968aa"
-          },
-          {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-              "__collapse": true
+              "spriteSheetId": "9bd0c17b-2d32-4099-8fe4-5ca309743381",
+              "__collapse": false
             },
             "id": "713402bb-e240-46cd-ae44-60c37fb76647"
           },
@@ -76,7 +65,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -145,7 +134,7 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+              "spriteSheetId": "7ae38a02-2524-4179-99f0-f9b636c2e860"
             },
             "id": "1603c101-e73c-4f5e-8df3-b3276b5e84c2"
           }
