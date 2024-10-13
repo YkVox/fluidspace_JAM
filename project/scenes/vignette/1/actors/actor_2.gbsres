@@ -23,13 +23,23 @@
         "actorId": "$self$"
       },
       "id": "72694069-7c71-462d-a76c-ab9e4452aff4"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Légende : \"Renaissance des ordures. Hier bouffe, aujourd’hui cendres. Dans ce monde pourri, tu finis toujours en fumée. #ApocalypseDesÉgouts #RatsInFlames #FuckLesDéchets\"",
+        "x": 1,
+        "y": 10,
+        "location": "background"
+      },
+      "id": "0e8ebf2b-6f39-4630-a48e-66c59ac00d70"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 11,
+  "x": 12,
   "y": 25,
   "_index": 2
 }

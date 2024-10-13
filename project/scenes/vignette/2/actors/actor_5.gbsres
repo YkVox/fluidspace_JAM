@@ -1,0 +1,85 @@
+{
+  "_resourceType": "actor",
+  "id": "0946b1ee-d7ba-4495-87d6-9530ad75aadf",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b568c657-ae30-47ee-8011-025f41b6f025",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_39",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 9
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 27
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "1296ba75-cea3-4b44-a19b-e7621cce1bf3"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "6f855983-1825-47db-94ee-3f28d4f3e85a"
+          }
+        ]
+      },
+      "id": "47764efb-4117-47e8-a89b-10bf4683d3bc"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 17,
+  "y": 26,
+  "_index": 5
+}

@@ -23,13 +23,23 @@
         "actorId": "$self$"
       },
       "id": "fa927cc8-a737-44d9-91c1-dcce55ce006a"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Peut-on mieux réussir sa vie de gabian grâce aux technologies ?",
+        "x": 1,
+        "y": 1,
+        "location": "background"
+      },
+      "id": "aa214760-e7c1-45c4-bc79-40ef019d4cf9"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 2,
-  "y": 15,
+  "x": 7,
+  "y": 21,
   "_index": 1
 }

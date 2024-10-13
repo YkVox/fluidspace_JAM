@@ -23,6 +23,16 @@
         "actorId": "$self$"
       },
       "id": "389c59c8-3a15-40e1-a09e-7c06770141d1"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "Types de poubelles\nAujourd'hui, le terme poubelle est utilisé pour différents types de conteneurs d'extérieur ( Conteneur, Benne à ordures ménagères) ou d'intérieur: Poubelle de table, Poubelle de paillasse, Corbeille à papier.",
+        "x": 1,
+        "y": 9,
+        "location": "background"
+      },
+      "id": "9fb75e0e-efb6-4d88-aa0a-cf7f65c45c86"
     }
   ],
   "updateScript": [],

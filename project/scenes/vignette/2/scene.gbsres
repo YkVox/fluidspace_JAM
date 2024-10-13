@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "VIGNETTE/2",
   "symbol": "scene_9",
-  "x": 504,
-  "y": 568,
+  "x": 496,
+  "y": 528,
   "width": 40,
   "height": 36,
   "backgroundId": "27044630-c8b9-48d0-98c7-e3958fa6e1f2",
@@ -19,7 +19,7 @@
     ""
   ],
   "spritePaletteIds": [
-    "default-sprite"
+    "default-bg-2"
   ],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,

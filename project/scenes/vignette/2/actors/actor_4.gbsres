@@ -1,0 +1,94 @@
+{
+  "_resourceType": "actor",
+  "id": "028324e3-0bef-4492-9e7c-035fd808fc16",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b568c657-ae30-47ee-8011-025f41b6f025",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_38",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+      },
+      "id": "2e1b0671-d2e1-4621-a242-028a5e96c714"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "3"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 9
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 27
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "5277fa4f-80f8-4ff0-897b-7ef74884128b"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "moveType": "diagonal",
+              "useCollisions": false,
+              "__collapse": false
+            },
+            "id": "397d9229-916b-4bcf-9f3a-13f77b4a0887"
+          }
+        ]
+      },
+      "id": "9aa4e676-4366-4bf3-8222-bd4a6c62736e"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 25,
+  "_index": 4
+}

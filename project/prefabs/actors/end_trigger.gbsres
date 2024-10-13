@@ -4,7 +4,7 @@
   "name": "END_TRIGGER",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -17,7 +17,7 @@
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "15995e52-3a35-4016-84c6-a08d19696945"
     }
@@ -65,7 +65,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [

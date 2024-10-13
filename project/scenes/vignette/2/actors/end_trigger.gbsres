@@ -4,7 +4,7 @@
   "name": "END_TRIGGER",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "8e904982-1df5-41a1-a087-168149740640",
+  "spriteSheetId": "fe7d95c2-4c3e-4248-abee-acf98c0e270d",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -21,9 +21,9 @@
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "b3748c9d-3f08-4f86-8e85-cbdc25e544a9",
+      "id": "ddb5265f-c3f1-40d9-87dc-dc8ea81f8a04",
       "children": {}
     }
   ],
@@ -53,7 +53,7 @@
               "spriteSheetId": "7ae38a02-2524-4179-99f0-f9b636c2e860",
               "__collapse": false
             },
-            "id": "44178afc-1597-4e09-a091-249051c4adad",
+            "id": "c629f6f0-8080-4370-b856-587e11fbd7d0",
             "children": {}
           },
           {
@@ -63,7 +63,7 @@
               "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
               "__collapse": true
             },
-            "id": "18627946-b514-480b-91b5-09660a0c42ce",
+            "id": "747fd9d9-b533-4b30-8761-aba2ade2aba8",
             "children": {}
           },
           {
@@ -74,7 +74,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -108,7 +108,7 @@
                           "direction": "",
                           "fadeSpeed": "2"
                         },
-                        "id": "5cecd264-6611-4ab3-a134-e992ebe3d7a2",
+                        "id": "8a55feae-af0b-4d2f-b23e-7e04364eeeb6",
                         "children": {}
                       }
                     ],
@@ -129,16 +129,16 @@
                           "fadeSpeed": "2",
                           "__collapse": false
                         },
-                        "id": "f9bcecc3-a3e6-4174-b1e3-745a308b2a3a",
+                        "id": "af980d75-4602-40d2-ad95-578b15b143f6",
                         "children": {}
                       }
                     ]
                   },
-                  "id": "609cddb4-14b8-4690-aa2b-568fb58c2029"
+                  "id": "dcaa1168-d215-4cb2-be5a-70b94e428399"
                 }
               ]
             },
-            "id": "af10ea87-342c-430c-ad45-c2e6be62adc7"
+            "id": "030c2178-330e-4cbd-bd82-0eb3c6d9cfa0"
           }
         ],
         "false": [
@@ -147,12 +147,12 @@
             "args": {
               "spriteSheetId": "022530e0-e1f9-4adc-b7c0-c03695711903"
             },
-            "id": "0f15e390-1adf-4277-a774-8e4845d6e15a",
+            "id": "0a20d6e9-be31-4ed7-a027-103b7d0b984d",
             "children": {}
           }
         ]
       },
-      "id": "a3676adc-6af7-46ad-8184-74623a448363"
+      "id": "682a06e2-69fa-4abc-b595-ba18626fa34f"
     }
   ],
   "hit1Script": [],
