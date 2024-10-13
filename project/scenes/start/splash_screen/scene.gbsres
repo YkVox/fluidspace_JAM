@@ -2,24 +2,24 @@
   "_resourceType": "scene",
   "id": "515a5393-c8dd-479b-ba1b-76f3d78d1dca",
   "_index": 0,
+  "type": "LOGO",
   "name": "START/Splash screen",
-  "backgroundId": "d2c4e41c-7a57-41c7-9fa0-0fe74d83602a",
-  "tilesetId": "",
+  "symbol": "scene_1",
+  "x": 328,
+  "y": 312,
   "width": 20,
   "height": 18,
-  "type": "LOGO",
+  "backgroundId": "d2c4e41c-7a57-41c7-9fa0-0fe74d83602a",
+  "tilesetId": "",
   "paletteIds": [
-    null,
+    "",
     "dmg"
   ],
   "spritePaletteIds": [
     "dmg"
   ],
-  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_1",
-  "x": 328,
-  "y": 312,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_WAIT",
@@ -52,5 +52,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true
+  "collisions": "00168+"
 }
