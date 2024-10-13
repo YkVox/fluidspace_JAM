@@ -3,12 +3,14 @@
   "id": "5ad47c21-4d53-4230-bb4f-54ec15da0585",
   "_index": 6,
   "name": "VIGNETTE/VITRINE-CREDITS",
-  "backgroundId": "42288b5e-a69c-4b1f-8174-8ff63187be94",
+  "backgroundId": "2228b836-a906-45e2-a6d2-a54790e942d9",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-bg-5"
+  ],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
@@ -16,6 +18,18 @@
   "x": 1280,
   "y": 800,
   "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "a6275547-60a1-4f8d-822f-092c57284407"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "16edc27d-eb82-4499-bdeb-d02b5026dd8a"
+      },
+      "id": "d1a5d3f8-5d04-4585-bd38-d3f77456161f"
+    },
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {

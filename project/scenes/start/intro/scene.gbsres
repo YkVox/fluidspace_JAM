@@ -3,7 +3,7 @@
   "id": "34adad07-6df0-4f20-b9be-649cde0bd41b",
   "_index": 2,
   "name": "START/Intro",
-  "backgroundId": "42288b5e-a69c-4b1f-8174-8ff63187be94",
+  "backgroundId": "2228b836-a906-45e2-a6d2-a54790e942d9",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -81,11 +81,11 @@
               "sceneId": "5273e55b-3efe-4fa4-bc01-d5c2479f792a",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 9
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 9
               },
               "direction": "",
               "fadeSpeed": "2"
