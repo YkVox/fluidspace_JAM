@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "42288b5e-a69c-4b1f-8174-8ff63187be94",
+  "name": "background_vitrine_rue",
+  "symbol": "bg_background_vitrine_rue",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "background_vitrine_rue.png",
+  "tileColors": ""
+}
