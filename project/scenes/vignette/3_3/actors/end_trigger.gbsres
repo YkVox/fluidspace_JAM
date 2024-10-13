@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "666bb4b9-60ed-415b-99e5-66dbff859d55",
+  "id": "8108a2d7-db15-40c7-ac15-1d36dc1df0c1",
   "name": "END_TRIGGER",
   "frame": 0,
   "animate": false,
@@ -139,11 +139,7 @@
     "3c4c140d-19f3-491e-9a4e-f610d07d382b": {
       "id": "3c4c140d-19f3-491e-9a4e-f610d07d382b",
       "args": {
-        "sceneId": "771955a3-3d7f-4412-88a5-75b2604ff0e0",
-        "x": {
-          "type": "number",
-          "value": 10
-        }
+        "sceneId": "5ad47c21-4d53-4230-bb4f-54ec15da0585"
       }
     },
     "25194959-a6c7-4a17-9e44-be4d3315ff20": {
@@ -157,17 +153,16 @@
       "args": {
         "x": {
           "type": "number",
-          "value": 10
+          "value": 12
         },
         "y": {
           "type": "number",
-          "value": 0
-        },
-        "sceneId": "771955a3-3d7f-4412-88a5-75b2604ff0e0"
+          "value": 255
+        }
       }
     }
   },
-  "symbol": "actor_4",
+  "symbol": "actor_5",
   "script": [],
   "startScript": [],
   "updateScript": [],
