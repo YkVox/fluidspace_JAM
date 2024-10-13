@@ -2,14 +2,14 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "GAME_FINISHED",
+      "symbol": "var_game_finished_0"
+    },
+    {
       "id": "34adad07-6df0-4f20-b9be-649cde0bd41b__L0",
       "name": "START",
       "symbol": "var_start"
-    },
-    {
-      "id": "0",
-      "name": "PLAYER_OVERLAP_EXIT",
-      "symbol": "var_player_overlap_exit"
     },
     {
       "id": "5273e55b-3efe-4fa4-bc01-d5c2479f792a__L0",
@@ -35,6 +35,16 @@
       "id": "d30cacec-d07a-49fa-b075-0998ded30f0c__L0",
       "name": "PLAYER_OVERLAP_EXIT",
       "symbol": "var_player_overlap_exit_4"
+    },
+    {
+      "id": "5ad47c21-4d53-4230-bb4f-54ec15da0585__L0",
+      "name": "PLAYER_OVERLAP_EXIT",
+      "symbol": "var_player_overlap_exit_5"
+    },
+    {
+      "id": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978__L0",
+      "name": "PLAYER_OVERLAP_EXIT",
+      "symbol": "var_player_overlap_exit_6"
     }
   ]
 }

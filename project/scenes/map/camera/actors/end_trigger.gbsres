@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "666bb4b9-60ed-415b-99e5-66dbff859d55",
+  "id": "c0f7709f-31ee-47cb-ad70-d6e34013ec2e",
   "name": "END_TRIGGER",
   "frame": 0,
   "animate": false,
@@ -133,13 +133,7 @@
     "73efd569-afc5-4b78-ab95-6082379b2a35": {
       "id": "73efd569-afc5-4b78-ab95-6082379b2a35",
       "args": {
-        "sceneId": "5ad47c21-4d53-4230-bb4f-54ec15da0585"
-      }
-    },
-    "3c4c140d-19f3-491e-9a4e-f610d07d382b": {
-      "id": "3c4c140d-19f3-491e-9a4e-f610d07d382b",
-      "args": {
-        "sceneId": "5ad47c21-4d53-4230-bb4f-54ec15da0585"
+        "sceneId": "5273e55b-3efe-4fa4-bc01-d5c2479f792a"
       }
     },
     "25194959-a6c7-4a17-9e44-be4d3315ff20": {
@@ -147,16 +141,28 @@
       "args": {
         "__collapseElse": false
       }
+    },
+    "3c4c140d-19f3-491e-9a4e-f610d07d382b": {
+      "id": "3c4c140d-19f3-491e-9a4e-f610d07d382b",
+      "args": {
+        "sceneId": "5273e55b-3efe-4fa4-bc01-d5c2479f792a"
+      }
+    },
+    "b6321ff9-e8ee-43c4-983e-c614dedc036b": {
+      "id": "b6321ff9-e8ee-43c4-983e-c614dedc036b",
+      "args": {
+        "sceneId": "5273e55b-3efe-4fa4-bc01-d5c2479f792a"
+      }
     }
   },
-  "symbol": "actor_4",
+  "symbol": "actor_10",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 11,
-  "y": 24,
+  "x": 7,
+  "y": 21,
   "_index": 0
 }

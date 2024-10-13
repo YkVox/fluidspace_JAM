@@ -1,22 +1,100 @@
 {
   "_resourceType": "scene",
-  "id": "fce03d5c-0b86-4d75-942f-f3c12c9286f6",
-  "_index": 4,
-  "name": "VIGNETTE/VITRINE-credits",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "id": "5ad47c21-4d53-4230-bb4f-54ec15da0585",
+  "_index": 6,
+  "name": "VIGNETTE/VITRINE-CREDITS",
+  "backgroundId": "42288b5e-a69c-4b1f-8174-8ff63187be94",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_7",
-  "x": 328,
-  "y": 1160,
-  "script": [],
+  "symbol": "scene_5",
+  "x": 480,
+  "y": 920,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "PermacabTeam : \nCircé Cherry Lac, \nChloé Desmoineaux, "
+        ],
+        "__section": "behavior",
+        "avatarId": "",
+        "minHeight": 5,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 4,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 5,
+        "speedOut": 5,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30
+      },
+      "id": "4660ee2b-197c-4e32-81a9-f3175dc736d1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Bobby Brim, \nsasha mattner, \nMisha Feuillet,"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d2fba137-5aaa-455f-9cde-afbe640a14ad"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "alpha_rats, \nlorca dvlg. "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "67af853c-a0ca-4130-93ae-e6ad83df24a5"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "1b96edde-7e96-4420-9739-8f87d6aed4e7",
+  "autoFadeEventCollapse": false
 }

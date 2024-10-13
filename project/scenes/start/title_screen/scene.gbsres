@@ -17,21 +17,19 @@
   "y": 312,
   "script": [
     {
-      "command": "EVENT_TEXT_DRAW",
+      "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "text": "TITLE SCREEN",
-        "x": 1,
-        "y": 1,
-        "location": "background",
+        "actorId": "$self$",
         "__collapse": true
       },
-      "id": "5b853a7c-ea3f-4249-8962-b23ab3331be7"
+      "id": "3cc896c5-a10d-444c-99d3-2c1a862f8a7e"
     },
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 2,
-        "frames": 30
+        "time": 4,
+        "frames": 30,
+        "__collapse": true
       },
       "id": "07112f23-bced-4cb5-81b4-9add594b1df2"
     },
@@ -48,12 +46,14 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__collapse": true
       },
       "id": "d3c2fc01-312b-43d9-bc4c-9f4ea8749e28"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

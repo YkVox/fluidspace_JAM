@@ -135,6 +135,18 @@
       "args": {
         "sceneId": "d30cacec-d07a-49fa-b075-0998ded30f0c"
       }
+    },
+    "25194959-a6c7-4a17-9e44-be4d3315ff20": {
+      "id": "25194959-a6c7-4a17-9e44-be4d3315ff20",
+      "args": {
+        "__collapseElse": false
+      }
+    },
+    "3c4c140d-19f3-491e-9a4e-f610d07d382b": {
+      "id": "3c4c140d-19f3-491e-9a4e-f610d07d382b",
+      "args": {
+        "sceneId": "d30cacec-d07a-49fa-b075-0998ded30f0c"
+      }
     }
   },
   "symbol": "actor_1",

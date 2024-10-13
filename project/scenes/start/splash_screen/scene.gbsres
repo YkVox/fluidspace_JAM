@@ -2,27 +2,31 @@
   "_resourceType": "scene",
   "id": "515a5393-c8dd-479b-ba1b-76f3d78d1dca",
   "_index": 0,
-  "name": "START/Splash screen",
-  "backgroundId": "d2c4e41c-7a57-41c7-9fa0-0fe74d83602a",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "LOGO",
-  "paletteIds": [],
-  "spritePaletteIds": [
-    "dmg"
-  ],
-  "collisions": "00168+",
-  "autoFadeSpeed": 1,
+  "name": "START/Splash screen",
   "symbol": "scene_1",
   "x": 328,
   "y": 312,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "d2c4e41c-7a57-41c7-9fa0-0fe74d83602a",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "dmg"
+  ],
+  "spritePaletteIds": [
+    "dmg"
+  ],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
   "script": [
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 2,
-        "frames": 30
+        "time": 4,
+        "frames": 30,
+        "__collapse": true
       },
       "id": "df7635fd-e358-4869-9a47-4d193cf88f42"
     },
@@ -40,7 +44,7 @@
         },
         "direction": "",
         "fadeSpeed": "2",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "076ebabf-a46c-4bdd-bf83-13bbf0d18866"
     }
@@ -48,5 +52,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "collisions": "00168+"
 }

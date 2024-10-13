@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f28a1d84-ace6-4cb9-af7c-30a7036b4bd8",
+  "name": "vitrine",
+  "symbol": "bg_1728810502_0",
+  "width": 32,
+  "height": 28,
+  "imageWidth": 256,
+  "imageHeight": 224,
+  "filename": "vitrine.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "3b7119d0-839b-41c6-9525-d67c28eca7d6",
-  "name": "PROTO_640x576",
-  "symbol": "bg_proto_640x576",
+  "id": "0fa60a99-f227-4d03-9663-120f217a5293",
+  "name": "PROTO_640x576_3",
+  "symbol": "bg_proto_640x576_3",
   "width": 80,
   "height": 72,
   "imageWidth": 640,
   "imageHeight": 578,
-  "filename": "PROTO_640x576.png",
+  "filename": "PROTO_640x576_3.png",
   "tileColors": "",
   "autoColor": false
 }
