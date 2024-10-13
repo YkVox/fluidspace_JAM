@@ -17,6 +17,14 @@
   "y": 312,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "9de8369b-1e18-4c96-8e8a-fa904506923e"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "0",
@@ -26,14 +34,6 @@
         "__collapse": true
       },
       "id": "f1cef395-3ed6-41cb-bb5e-3ed30176510b"
-    },
-    {
-      "command": "EVENT_ACTOR_HIDE",
-      "args": {
-        "actorId": "$self$",
-        "__collapse": true
-      },
-      "id": "9de8369b-1e18-4c96-8e8a-fa904506923e"
     },
     {
       "command": "EVENT_MENU",

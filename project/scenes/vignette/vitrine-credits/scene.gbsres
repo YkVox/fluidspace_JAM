@@ -17,6 +17,14 @@
   "y": 1368,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "e1138c30-44a8-4d5d-82d3-450b626eb330"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -32,12 +40,13 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": "true",
-        "speedIn": 5,
-        "speedOut": 5,
+        "speedIn": -1,
+        "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
         "closeDelayTime": 1,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "4660ee2b-197c-4e32-81a9-f3175dc736d1"
     },
@@ -62,7 +71,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "d2fba137-5aaa-455f-9cde-afbe640a14ad"
     },
@@ -87,14 +97,23 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "67af853c-a0ca-4130-93ae-e6ad83df24a5"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "5e563a5b-40ed-4c67-b8f1-ef34df9f8574"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "playerSpriteSheetId": "9bd0c17b-2d32-4099-8fe4-5ca309743381",
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true
 }
