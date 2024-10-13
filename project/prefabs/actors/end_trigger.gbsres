@@ -17,7 +17,7 @@
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
       "args": {
         "actorId": "$self$",
-        "__collapse": false
+        "__collapse": true
       },
       "id": "15995e52-3a35-4016-84c6-a08d19696945"
     }
@@ -40,6 +40,17 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "9f3d350b-d3b5-4409-84ae-6e93172968aa"
+          },
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
@@ -65,7 +76,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -79,7 +90,7 @@
                         "value": "0"
                       }
                     },
-                    "__collapseElse": false,
+                    "__collapseElse": true,
                     "__collapse": false
                   },
                   "children": {

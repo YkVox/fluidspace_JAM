@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "572dda87-e399-4cc0-92f9-03e7f37e5f0f",
+  "name": "welcome",
+  "symbol": "song_welcome",
+  "filename": "welcome.uge",
+  "settings": {},
+  "type": "uge"
+}

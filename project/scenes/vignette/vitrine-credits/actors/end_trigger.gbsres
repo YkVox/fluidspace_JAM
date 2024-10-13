@@ -16,15 +16,7 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_13",
   "script": [],
-  "startScript": [
-    {
-      "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
-      "args": {
-        "actorId": "$self$"
-      },
-      "id": "ad7f3822-a25c-45f1-bfd7-870f52514fb9"
-    }
-  ],
+  "startScript": [],
   "updateScript": [
     {
       "command": "EVENT_IF_ACTOR_AT_POSITION",
@@ -89,11 +81,11 @@
                     "sceneId": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978",
                     "x": {
                       "type": "number",
-                      "value": 36
+                      "value": 0
                     },
                     "y": {
                       "type": "number",
-                      "value": 24
+                      "value": 0
                     },
                     "direction": "",
                     "fadeSpeed": "2",
