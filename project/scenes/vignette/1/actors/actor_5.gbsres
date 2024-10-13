@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "c9d3421c-c536-4dce-9773-b80fa9003ac4",
+  "id": "d11148db-5f9e-4792-b0d1-36d5c963607f",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "symbol": "actor_14",
   "script": [],
   "startScript": [
     {
@@ -22,14 +22,14 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "fa927cc8-a737-44d9-91c1-dcce55ce006a"
+      "id": "389c59c8-3a15-40e1-a09e-7c06770141d1"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 2,
-  "y": 15,
-  "_index": 1
+  "x": 3,
+  "y": 62,
+  "_index": 5
 }

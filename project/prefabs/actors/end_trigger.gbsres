@@ -4,7 +4,7 @@
   "name": "END_TRIGGER",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -90,11 +90,11 @@
                           "sceneId": "5273e55b-3efe-4fa4-bc01-d5c2479f792a",
                           "x": {
                             "type": "number",
-                            "value": 14
+                            "value": 9
                           },
                           "y": {
                             "type": "number",
-                            "value": 7
+                            "value": 0
                           },
                           "direction": "",
                           "fadeSpeed": "2"
@@ -106,10 +106,10 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978",
+                          "sceneId": "d30cacec-d07a-49fa-b075-0998ded30f0c",
                           "x": {
                             "type": "number",
-                            "value": 0
+                            "value": 10
                           },
                           "y": {
                             "type": "number",

@@ -6,20 +6,20 @@
   "name": "VIGNETTE/2",
   "symbol": "scene_9",
   "x": 504,
-  "y": 560,
+  "y": 568,
   "width": 40,
   "height": 36,
-  "backgroundId": "38222770-ca26-4dbc-9ac2-f6786b924c61",
+  "backgroundId": "27044630-c8b9-48d0-98c7-e3958fa6e1f2",
   "tilesetId": "",
   "paletteIds": [
-    "",
+    "default-bg-3",
     "dmg",
     "",
     "",
     ""
   ],
   "spritePaletteIds": [
-    "default-bg-2"
+    "default-sprite"
   ],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,
