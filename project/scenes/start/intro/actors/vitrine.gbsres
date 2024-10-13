@@ -10,7 +10,7 @@
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
-  "isPinned": false,
+  "isPinned": true,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
@@ -23,5 +23,5 @@
   "hit3Script": [],
   "x": 9,
   "y": 17,
-  "_index": 1
+  "_index": 0
 }

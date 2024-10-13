@@ -8,7 +8,9 @@
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-bg-2"
+  ],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
@@ -68,8 +70,8 @@
             "value": 1
           }
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -91,7 +93,25 @@
             "id": "11323050-dc4a-428c-b0c3-55e39811bd3e"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f5dadc80-8d76-4deb-9191-9f76208f3e28",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ad8ec98e-6242-40c1-98f4-9d2fdaf28eac"
+          }
+        ]
       },
       "id": "eccf3a64-cd3f-48d1-8830-b0e4f67ca8f0"
     }
