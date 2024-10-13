@@ -9,5 +9,5 @@
   "imageHeight": 288,
   "filename": "background_bigmapTiled.png",
   "tileColors": "",
-  "autoColor": false
+  "autoColor": true
 }

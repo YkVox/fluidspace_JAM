@@ -5,11 +5,11 @@
   "type": "TOPDOWN",
   "name": "VIGNETTE/2",
   "symbol": "scene_9",
-  "x": 1008,
-  "y": 496,
-  "width": 80,
-  "height": 72,
-  "backgroundId": "0fa60a99-f227-4d03-9663-120f217a5293",
+  "x": 504,
+  "y": 560,
+  "width": 40,
+  "height": 36,
+  "backgroundId": "38222770-ca26-4dbc-9ac2-f6786b924c61",
   "tilesetId": "",
   "paletteIds": [
     "",
@@ -26,5 +26,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "001680+"
+  "collisions": "005a0+"
 }

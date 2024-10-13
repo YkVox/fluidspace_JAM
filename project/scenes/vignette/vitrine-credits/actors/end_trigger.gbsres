@@ -23,14 +23,6 @@
         "actorId": "$self$"
       },
       "id": "daa16a3d-63e2-48be-9cf4-ed001a735aa9"
-    },
-    {
-      "command": "EVENT_ACTOR_EMOTE",
-      "args": {
-        "actorId": "$self$",
-        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
-      },
-      "id": "c8631d18-cdc2-4a44-80a6-82d1b784642f"
     }
   ],
   "updateScript": [
@@ -132,7 +124,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 15,
-  "y": 3,
+  "x": 4,
+  "y": 14,
   "_index": 0
 }

@@ -157,7 +157,7 @@
         },
         "y": {
           "type": "number",
-          "value": 255
+          "value": 0
         }
       }
     }
