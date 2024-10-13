@@ -15,7 +15,20 @@
   "symbol": "scene_0",
   "x": 848,
   "y": 560,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "3e5d73a2-cd4b-4af2-ad69-1f7d8de7d83f"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b0754aa8-8958-448f-9635-0720f17c4861"
+      },
+      "id": "2dae3b7e-df2e-4d1c-9297-5add9b68e298"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

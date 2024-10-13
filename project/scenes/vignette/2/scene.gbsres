@@ -22,7 +22,20 @@
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,
   "playerSpriteSheetId": "022530e0-e1f9-4adc-b7c0-c03695711903",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "a6b7d66c-e39e-4e23-9499-3cc04f5aa162"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "b68cbfe0-cc40-4725-9a94-e2d1cfc68a61"
+      },
+      "id": "44562dbc-4971-40f4-a9a3-11688538b4b8"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
