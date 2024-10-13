@@ -87,14 +87,14 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "771955a3-3d7f-4412-88a5-75b2604ff0e0",
+                          "sceneId": "5273e55b-3efe-4fa4-bc01-d5c2479f792a",
                           "x": {
                             "type": "number",
                             "value": 9
                           },
                           "y": {
                             "type": "number",
-                            "value": 12
+                            "value": 0
                           },
                           "direction": "",
                           "fadeSpeed": "2"
@@ -106,14 +106,14 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "aea44e35-4de7-416f-84a1-b34a901456a0",
+                          "sceneId": "d30cacec-d07a-49fa-b075-0998ded30f0c",
                           "x": {
                             "type": "number",
                             "value": 10
                           },
                           "y": {
                             "type": "number",
-                            "value": 22
+                            "value": 0
                           },
                           "direction": "",
                           "fadeSpeed": "2",
