@@ -3,14 +3,14 @@
   "id": "34adad07-6df0-4f20-b9be-649cde0bd41b",
   "_index": 2,
   "name": "START/Intro",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "42288b5e-a69c-4b1f-8174-8ff63187be94",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
   "x": 712,
@@ -20,7 +20,7 @@
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9de8369b-1e18-4c96-8e8a-fa904506923e"
     },

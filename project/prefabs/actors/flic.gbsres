@@ -1,20 +1,17 @@
 {
-  "_resourceType": "actor",
-  "id": "d78f29a8-d6e3-4503-a0fe-12669f4a5e0f",
-  "name": "",
+  "_resourceType": "actorPrefab",
+  "id": "7d3f8c78-e819-4e83-bea3-d4f8c98e565e",
+  "name": "Flic",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "e151d17c-58af-4aef-a373-e1c766cb9304",
-  "prefabId": "7d3f8c78-e819-4e83-bea3-d4f8c98e565e",
-  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
-  "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
+  "_index": 1,
   "script": [],
   "startScript": [
     {
@@ -31,7 +28,8 @@
         },
         "__collapse": true
       },
-      "id": "c686930a-2aa8-4e36-a068-6d14aba8e312"
+      "id": "d5043773-3444-48d8-ab88-e309ccc86a3e",
+      "children": {}
     },
     {
       "command": "EVENT_ACTOR_MOVE_TO",
@@ -49,14 +47,12 @@
         "useCollisions": false,
         "__collapse": true
       },
-      "id": "9a947102-4044-4141-a0d2-e37607e6b47b"
+      "id": "6574d746-4046-4f34-af64-c7b716c92072",
+      "children": {}
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 1,
-  "y": 8,
-  "_index": 1
+  "hit3Script": []
 }
