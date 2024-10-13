@@ -3,19 +3,27 @@
   "id": "5273e55b-3efe-4fa4-bc01-d5c2479f792a",
   "_index": 3,
   "name": "VIGNETTE/1",
-  "backgroundId": "3b7119d0-839b-41c6-9525-d67c28eca7d6",
+  "backgroundId": "42288b5e-a69c-4b1f-8174-8ff63187be94",
   "tilesetId": "",
-  "width": 80,
-  "height": 72,
+  "width": 20,
+  "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "001680+",
+  "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 288,
-  "y": 512,
-  "script": [],
+  "x": 504,
+  "y": 632,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "eb929ecd-df5c-4210-b211-88291b9493e0"
+      },
+      "id": "772396ad-fdeb-4838-93cf-bde73447b748"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
