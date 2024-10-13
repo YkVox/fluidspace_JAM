@@ -74,7 +74,7 @@
               ],
               "override": true,
               "__scriptTabs": "press",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -116,7 +116,7 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "d30cacec-d07a-49fa-b075-0998ded30f0c",
+                          "sceneId": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978",
                           "x": {
                             "type": "number",
                             "value": 12
