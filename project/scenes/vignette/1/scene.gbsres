@@ -17,6 +17,11 @@
   "y": 560,
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "bcab169d-d119-4a19-91db-8423a19edcdb"
+    },
+    {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "eb929ecd-df5c-4210-b211-88291b9493e0",
