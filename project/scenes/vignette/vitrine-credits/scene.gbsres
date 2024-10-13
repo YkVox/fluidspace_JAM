@@ -15,8 +15,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
-  "x": 1280,
-  "y": 800,
+  "x": 1056,
+  "y": 768,
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",
@@ -58,9 +58,9 @@
         "speedOut": -1,
         "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 1,
+        "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "4660ee2b-197c-4e32-81a9-f3175dc736d1"
     },
@@ -70,7 +70,7 @@
         "text": [
           "Bobby Brim, \nsasha mattner, \nMisha Feuillet,"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -82,11 +82,11 @@
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
-        "closeWhen": "key",
+        "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 0.5,
+        "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "d2fba137-5aaa-455f-9cde-afbe640a14ad"
     },
@@ -96,7 +96,7 @@
         "text": [
           "alpha_rats, \nlorca dvlg. "
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -108,11 +108,11 @@
         "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
-        "closeWhen": "key",
+        "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 0.5,
+        "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "67af853c-a0ca-4130-93ae-e6ad83df24a5"
     },

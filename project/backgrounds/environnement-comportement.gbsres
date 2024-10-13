@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "38222770-ca26-4dbc-9ac2-f6786b924c61",
+  "id": "27044630-c8b9-48d0-98c7-e3958fa6e1f2",
   "name": "environnement-comportement",
   "symbol": "bg_environnement_comporteme",
   "width": 40,
@@ -9,5 +9,5 @@
   "imageHeight": 288,
   "filename": "environnement-comportement.png",
   "tileColors": "",
-  "autoColor": true
+  "autoColor": false
 }
