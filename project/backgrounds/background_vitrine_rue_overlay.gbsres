@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "background_vitrine_rue_overlay.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
