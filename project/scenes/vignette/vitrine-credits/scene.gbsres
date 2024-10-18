@@ -44,7 +44,7 @@
         "text": [
           "PermacabTeam : \nCircé Cherry Lac, \nChloé Desmoineaux, "
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 5,
         "maxHeight": 7,
@@ -60,7 +60,7 @@
         "closeButton": "a",
         "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "4660ee2b-197c-4e32-81a9-f3175dc736d1"
     },
@@ -86,7 +86,7 @@
         "closeButton": "a",
         "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "d2fba137-5aaa-455f-9cde-afbe640a14ad"
     },
@@ -112,7 +112,7 @@
         "closeButton": "a",
         "closeDelayTime": 2,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "67af853c-a0ca-4130-93ae-e6ad83df24a5"
     },

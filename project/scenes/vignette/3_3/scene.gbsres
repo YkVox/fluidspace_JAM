@@ -20,26 +20,29 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Quand ils ne sont pas là, les cafards dansent, chantent, et font de bons repas. \nC’était peut être pas la flamme des J.O,\nMais y’a pas plus chaleureux qu’ici"
+          "Quand ils ne sont \npas là, les \ncafards dansent,",
+          "chantent, et font \nde bons repas. \n",
+          "C'est peut-être \npas la flamme \ndes JO,  ",
+          "mais y'a pas plus \nchaleureux qu'ici !"
         ],
         "__section": "text",
         "avatarId": "",
-        "minHeight": 4,
+        "minHeight": 5,
         "maxHeight": 7,
         "textX": 1,
         "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
+        "textHeight": 3,
+        "position": "top",
         "clearPrevious": true,
-        "showFrame": "true",
+        "showFrame": true,
         "speedIn": -1,
         "speedOut": -1,
-        "closeWhen": "key",
+        "closeWhen": "text",
         "closeButton": "a",
-        "closeDelayTime": 0.5,
+        "closeDelayTime": 2,
         "closeDelayFrames": 30
       },
-      "id": "6df6c72d-034b-4b1b-9676-e735c1aeb37f"
+      "id": "f6fe9e19-efb6-4c13-8829-b5be6150a6f0"
     }
   ],
   "playerHit1Script": [],

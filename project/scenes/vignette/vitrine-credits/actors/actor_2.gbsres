@@ -16,7 +16,23 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_53",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        }
+      },
+      "id": "a9894b24-5089-464f-9804-8a88eaa09f59"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_LOOP_WHILE",
@@ -79,7 +95,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 4,
+  "x": 12,
   "y": 12,
   "_index": 2
 }

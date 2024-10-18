@@ -53,7 +53,7 @@
             "args": {
               "actorId": "$self$",
               "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "9a7bd8e8-b5af-4b5d-933a-fd64055fd744"
           },
@@ -109,11 +109,11 @@
                           "sceneId": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978",
                           "x": {
                             "type": "number",
-                            "value": 14
+                            "value": 11
                           },
                           "y": {
                             "type": "number",
-                            "value": 4
+                            "value": 24
                           },
                           "direction": "",
                           "fadeSpeed": "2",

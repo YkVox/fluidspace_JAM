@@ -153,7 +153,7 @@
       "args": {
         "x": {
           "type": "number",
-          "value": 12
+          "value": 36
         },
         "y": {
           "type": "number",
@@ -170,7 +170,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 8,
+  "x": 6,
   "y": 17,
   "_index": 0
 }

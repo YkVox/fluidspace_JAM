@@ -70,7 +70,7 @@
       "command": "EVENT_INC_VALUE",
       "args": {
         "variable": "2",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "5c1a7cfd-7a87-4481-a38a-a639151273f3"
     },
@@ -88,7 +88,7 @@
             "value": 15
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {

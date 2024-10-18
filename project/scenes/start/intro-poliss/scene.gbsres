@@ -24,7 +24,7 @@
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "c0151979-8ab8-4be8-93d1-011c99794234"
     },
@@ -44,6 +44,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "313322c2-ea79-4016-9787-c21198032843"
 }

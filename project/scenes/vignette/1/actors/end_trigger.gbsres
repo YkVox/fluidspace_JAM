@@ -176,7 +176,7 @@
       "args": {
         "x": {
           "type": "number",
-          "value": 12
+          "value": 36
         },
         "y": {
           "type": "number",

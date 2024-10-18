@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "75ebbd81-f360-4f16-9144-9fa43f7013d9",
+  "name": "background_bigmapTiled2",
+  "symbol": "bg_background_bigmaptiled2",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "background_bigmapTiled2.png",
+  "tileColors": "015a0+",
+  "autoColor": false
+}
