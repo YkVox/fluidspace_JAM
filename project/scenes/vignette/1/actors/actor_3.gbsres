@@ -15,7 +15,34 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_7",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Ce robot en forme \nde canette qui \nsait tout faire",
+          "(même de la drill!) \nest prêt à \nconquérir \nles foyers"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f67f902b-c38b-4692-a7ef-a3ccd618e925"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +52,39 @@
       "id": "b2ba2ae0-b4e7-4bb7-a374-1848a6a16b98"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "e61c27ef-c1d7-4c27-86cd-e5fedd184300"
+          }
+        ],
+        "false": []
+      },
+      "id": "1fdee438-2805-4565-a13d-be39a12e0d06"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

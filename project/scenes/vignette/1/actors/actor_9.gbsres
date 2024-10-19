@@ -15,7 +15,36 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_18",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Post: Selfie flou \navec une armée \nde rats tatoués",
+          "(ou portant des \naccessoires \nétranges)",
+          "Légende : \n\"Fraternité \nsouterraine. \nOn sortira de \nl'ombre",
+          ",et ça va être cho\n#AnarchieDesRats"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1635836d-3e9b-45c6-973e-980f059f6958"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +54,39 @@
       "id": "9e5d7be7-1181-49f1-a7a4-f3e9847b0d19"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "a70568d2-82d1-4721-8708-a8ace0342e31"
+          }
+        ],
+        "false": []
+      },
+      "id": "f4f4d635-fe14-4970-bfaa-84cb0114cc11"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

@@ -15,7 +15,35 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_31",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "«Training partner \nin crime»",
+          "Le nouveau post \nchoquant de \nMarty MacRat le \ngros rat",
+          "accompagné \nde Kibicat le \ngros cat, son \nennemi juré. "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "13f15cbe-cd26-4442-a974-fe3caa655649"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +53,39 @@
       "id": "6264f6d6-fdc7-44a3-bcc0-231876a9c954"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+            },
+            "id": "b10d6bc3-fccc-43cb-b2bc-21f0bb3755ee"
+          }
+        ],
+        "false": []
+      },
+      "id": "b17c3e75-3060-4874-9260-4a03ce1a977b"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

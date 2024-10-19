@@ -15,7 +15,36 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_35",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Poubelle publique \nà Paris. Le sac \ntransparent ",
+          "facilite l'examen \ndu contenu et \nempêche la ",
+          "dissimulation \nd'engin explosif, \ndans le cadre",
+          "de la prévention \ndu terrorisme."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ae9e9acb-47e2-4473-856c-e9115533e0aa"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +54,39 @@
       "id": "fe08851b-ceda-486a-b7f4-6b00f162bbbd"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "1114c8e0-ba3e-440c-9ed6-7418b13e16dc"
+          }
+        ],
+        "false": []
+      },
+      "id": "0de5efd4-c9a5-458f-9c55-aab43d5244ff"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

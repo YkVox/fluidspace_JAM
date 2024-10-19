@@ -15,7 +15,36 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_2",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Renaissance des \nordures.",
+          "Hier bouffe,\naujourd’hui \ncendres. ",
+          "Dans ce monde \npourri, tu finis \ntoujours en fumée",
+          "#ApocalypseDesÉgouts\n#RatsInFlames\n#FuckLesDéchets"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d3ff35f0-f8c7-4966-9684-3a6c9c15b6a2"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,21 +54,63 @@
       "id": "fa927cc8-a737-44d9-91c1-dcce55ce006a"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "__collapse": true
+      },
+      "id": "5cf68dfa-f308-473f-8e96-d13e7d02b3e8"
+    },
+    {
       "command": "EVENT_TEXT_DRAW",
       "args": {
         "text": "Peut-on mieux réussir sa vie de gabian grâce aux technologies ?",
         "x": 1,
-        "y": 1,
-        "location": "background"
+        "y": 17,
+        "location": "background",
+        "__collapse": true
       },
       "id": "aa214760-e7c1-45c4-bc79-40ef019d4cf9"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+            },
+            "id": "e0de843f-6178-498b-9475-62ae8e2ddc2e"
+          }
+        ],
+        "false": []
+      },
+      "id": "ddff1aef-af65-47ff-982b-8059af3ce2b1"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 7,
-  "y": 21,
+  "x": 6,
+  "y": 19,
   "_index": 1
 }

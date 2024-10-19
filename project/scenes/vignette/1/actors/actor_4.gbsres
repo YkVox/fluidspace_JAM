@@ -15,7 +15,36 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_9",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Post: Une vieille \ncanette trouvée \ndans un coin sombre",
+          "\"Les humains disent \n'danger'.",
+          "Moi je vois un \ntrophée de plus \ndans mon royaume \nsouterrain.\"",
+          "#ÉgoutsVivant \n#VicesDesTunnels"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "115de90a-0143-44cd-9137-89c2f4e0e330"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +54,39 @@
       "id": "7ad28995-78a9-4470-8c6e-876d74780da9"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "1e684ae3-b6c9-4a9b-adbf-00f21c5c8ea9"
+          }
+        ],
+        "false": []
+      },
+      "id": "0dc24e12-9dc5-4d23-babc-479ea26c2402"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

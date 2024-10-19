@@ -15,7 +15,33 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_32",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Peut-on mieux \nréussir sa vie \nde gabian grâce \naux technologies ?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ff45f0cc-bbe5-4e3b-b3d0-1a22dfa84674"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +51,39 @@
       "id": "bd2d6cc5-adfa-4d23-a378-5d16ff5f80c0"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+            },
+            "id": "254c384f-8a8a-4f87-a39d-13e1c29d76fa"
+          }
+        ],
+        "false": []
+      },
+      "id": "27f8723b-6843-403e-a411-606d62ddfd00"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

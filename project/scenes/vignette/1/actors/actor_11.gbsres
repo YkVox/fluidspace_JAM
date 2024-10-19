@@ -15,7 +15,35 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_20",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Post: Un reste de \npizza pourrie \ncouvert de \nmoisissures vertes",
+          "Légende : \n\"La moisissure, \nc’est la cerise \nsur le gâteau\"",
+          "#RatatouilleCauchemar"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "59f4b7a8-e04b-479f-bffe-de246a0f6e75"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +53,39 @@
       "id": "408dff9e-40ca-4d34-95f5-7196cb374386"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+            },
+            "id": "9b48d1c6-d472-4392-b070-68ce9056d4cd"
+          }
+        ],
+        "false": []
+      },
+      "id": "03bed953-6043-4c45-9888-04ed1f819ab2"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

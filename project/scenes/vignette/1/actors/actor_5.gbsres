@@ -15,7 +15,35 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_14",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "NOUVELLE PROMOTION \nLE MOINS CHER DE \nMARSEILLE !",
+          "Avec un excellent \nproduit qui défie \ntoute concurrence!",
+          "LIVRAISON SUR \nMARSEILLE \n& ALENTOURS \nHORAIRE 24/24 \nLIVRAISONS"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "44ec059c-e2c4-4d9a-aa79-fb08ac10e0cd"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -35,7 +63,39 @@
       "id": "9fb75e0e-efb6-4d88-aa0a-cf7f65c45c86"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "aa800fae-b9cf-494f-b0d2-963808236ae7"
+          }
+        ],
+        "false": []
+      },
+      "id": "57c47224-aa6e-429b-9fb2-41319e47406b"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

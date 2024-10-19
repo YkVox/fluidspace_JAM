@@ -15,7 +15,34 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_33",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "\"Ne suivez pas \nles humains, \nfaites du bruit \net faites-le fort.",
+          "#PunkÀRats \n#FuckLeSystème"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "958db423-17e6-4801-b361-3482ef41c66d"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +52,39 @@
       "id": "5004dbad-8e42-4480-ac94-1f04adc18b38"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+            },
+            "id": "f3cd3b40-a4b6-4fc5-b035-908ff6896e90"
+          }
+        ],
+        "false": []
+      },
+      "id": "1707fe4b-e945-4d35-889f-0af1a35f40a8"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

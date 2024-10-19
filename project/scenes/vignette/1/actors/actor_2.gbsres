@@ -15,7 +15,36 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_3",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Post: Un tunnel \nd’égout tagué de \ngraffitis fluo ",
+          "avec des symboles \nétranges",
+          "\"Les murs parlent, frère. Ceux qui comprennent savent.\"",
+          "#ÉgoutsSacrés \n#LangueDesTunnels\n#ArtDesProfondeurs"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ae5e402f-2d60-423c-a6b1-d29de45279c6"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -35,7 +64,39 @@
       "id": "0e8ebf2b-6f39-4630-a48e-66c59ac00d70"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "6fb80d15-2754-4dc6-a2ed-81d2ea14f101"
+          }
+        ],
+        "false": []
+      },
+      "id": "53b04bbe-7fc5-41c7-b547-ac6d89d43dad"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

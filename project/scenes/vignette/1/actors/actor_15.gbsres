@@ -15,7 +15,37 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_34",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Post: Un rat \nportant des \nlunettes de soleil",
+          "craquelées devant \nune flaque d’eau \nsale irisée \nd’hydrocarbures",
+          "Légende : \"Style \nsur fond de poison.",
+          "La beauté c'est \ntoxique,bébé\" ",
+          "#ÉgoutsArcEnCiel \n#PoisonAesthetic "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1f372d11-baa9-4ec3-8944-35d3c6dd9ab0"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -25,7 +55,40 @@
       "id": "18bc8ccb-bb72-4b2f-bd94-750870b21a2b"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "bf1328fc-fdd7-4949-8dbb-86ff3d524190"
+          }
+        ],
+        "false": []
+      },
+      "id": "f47c42b2-c533-4221-a9b0-7896212828e0"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

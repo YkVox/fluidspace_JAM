@@ -15,7 +15,37 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_17",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Post: Des détritus \ncollés sur le dos \ndu rat, ",
+          "comme des \naccessoires de \nmode",
+          "Légende : \"New \ndrip, straight \nfrom the dump.",
+          "Trashcore is the \nnew haute couture\"",
+          "#RatFashionWeek \n#TrashStyle"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "84387efd-df4d-43c7-a973-aa1f67b6f34c"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
@@ -33,7 +63,39 @@
       "id": "c43205b1-6fa6-4d3a-b0b2-951f06b0d8c4"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
+        "actorId": "player",
+        "x": {
+          "type": "property",
+          "target": "$self$",
+          "property": "xpos"
+        },
+        "y": {
+          "type": "property",
+          "target": "$self$",
+          "property": "ypos"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "f1be2ac3-04ab-482a-8b83-99ffba1a89cd"
+            },
+            "id": "0da3dbdc-a9f6-471f-9c60-a9742dc2393f"
+          }
+        ],
+        "false": []
+      },
+      "id": "515042cc-d77c-4b5f-ba74-3d45ac31d74f"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
