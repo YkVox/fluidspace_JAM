@@ -17,69 +17,11 @@
   "symbol": "actor_46",
   "script": [],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_LOOP_WHILE",
-      "args": {
-        "condition": {
-          "type": "lt",
-          "valueA": {
-            "type": "variable",
-            "value": "3"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 9
-          }
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 2
-              },
-              "y": {
-                "type": "number",
-                "value": 27
-              },
-              "moveType": "diagonal",
-              "useCollisions": false,
-              "__collapse": false
-            },
-            "id": "85f1eef2-d1a3-4ed9-8234-62954de04a8e"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 30
-              },
-              "y": {
-                "type": "number",
-                "value": 3
-              },
-              "moveType": "diagonal",
-              "useCollisions": false,
-              "__collapse": false
-            },
-            "id": "7c7661fa-b32d-45fe-9fae-3c5687e2e689"
-          }
-        ]
-      },
-      "id": "8285927e-5801-4f1a-bba2-f8de328c1e15"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 10,
-  "y": 30,
+  "x": 6,
+  "y": 14,
   "_index": 12
 }

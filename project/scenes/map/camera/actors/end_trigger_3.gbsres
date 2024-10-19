@@ -108,7 +108,7 @@
           "target": "$self$",
           "property": "ypos"
         },
-        "__collapseElse": false,
+        "__collapseElse": true,
         "actorId": "player"
       }
     },
@@ -121,7 +121,7 @@
     "1603c101-e73c-4f5e-8df3-b3276b5e84c2": {
       "id": "1603c101-e73c-4f5e-8df3-b3276b5e84c2",
       "args": {
-        "spriteSheetId": "a609cfb3-325b-4ceb-a17b-66e5fad8dd70"
+        "spriteSheetId": "1fa14a82-fd75-46a6-8a04-5cdf691db28f"
       }
     },
     "9a7bd8e8-b5af-4b5d-933a-fd64055fd744": {
@@ -162,7 +162,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 30,
-  "y": 12,
+  "x": 19,
+  "y": 34,
   "_index": 2
 }

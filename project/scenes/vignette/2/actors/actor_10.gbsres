@@ -17,65 +17,7 @@
   "symbol": "actor_44",
   "script": [],
   "startScript": [],
-  "updateScript": [
-    {
-      "command": "EVENT_LOOP_WHILE",
-      "args": {
-        "condition": {
-          "type": "lt",
-          "valueA": {
-            "type": "variable",
-            "value": "3"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 9
-          }
-        }
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 2
-              },
-              "y": {
-                "type": "number",
-                "value": 27
-              },
-              "moveType": "diagonal",
-              "useCollisions": false,
-              "__collapse": false
-            },
-            "id": "27d3d0be-4a15-4026-a6cb-143fb5b32287"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "$self$",
-              "x": {
-                "type": "number",
-                "value": 30
-              },
-              "y": {
-                "type": "number",
-                "value": 3
-              },
-              "moveType": "diagonal",
-              "useCollisions": false,
-              "__collapse": false
-            },
-            "id": "90e1cdad-6d53-4865-b597-b486e0f16f92"
-          }
-        ]
-      },
-      "id": "5361e3f0-e15d-441b-a131-bf689dea3d16"
-    }
-  ],
+  "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

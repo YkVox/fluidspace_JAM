@@ -119,11 +119,11 @@
                           "sceneId": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978",
                           "x": {
                             "type": "number",
-                            "value": 36
+                            "value": 18
                           },
                           "y": {
                             "type": "number",
-                            "value": 24
+                            "value": 17
                           },
                           "direction": "",
                           "fadeSpeed": "2",
@@ -158,7 +158,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 12,
-  "y": 24,
+  "x": 22,
+  "y": 28,
   "_index": 0
 }

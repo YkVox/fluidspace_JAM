@@ -41,19 +41,11 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_PLAYER_SET_SPRITE",
-            "args": {
-              "spriteSheetId": "9bd0c17b-2d32-4099-8fe4-5ca309743381",
-              "__collapse": false
-            },
-            "id": "713402bb-e240-46cd-ae44-60c37fb76647"
-          },
-          {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",
               "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
-              "__collapse": false
+              "__collapse": true
             },
             "id": "9a7bd8e8-b5af-4b5d-933a-fd64055fd744"
           },
@@ -87,14 +79,14 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "5273e55b-3efe-4fa4-bc01-d5c2479f792a",
+                          "sceneId": "aea44e35-4de7-416f-84a1-b34a901456a0",
                           "x": {
                             "type": "number",
-                            "value": 9
+                            "value": 4
                           },
                           "y": {
                             "type": "number",
-                            "value": 0
+                            "value": 6
                           },
                           "direction": "",
                           "fadeSpeed": "2"
@@ -109,7 +101,7 @@
                           "sceneId": "d77b1e6a-f8f2-48e7-97e1-7f21a3a85978",
                           "x": {
                             "type": "number",
-                            "value": 11
+                            "value": 35
                           },
                           "y": {
                             "type": "number",
@@ -130,15 +122,7 @@
             "id": "f114c71e-717e-4756-93a0-ea68d7c77338"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_PLAYER_SET_SPRITE",
-            "args": {
-              "spriteSheetId": "7ae38a02-2524-4179-99f0-f9b636c2e860"
-            },
-            "id": "1603c101-e73c-4f5e-8df3-b3276b5e84c2"
-          }
-        ]
+        "false": []
       },
       "id": "2ff12ff8-9fe4-4837-8794-99b56059d880"
     }

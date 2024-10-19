@@ -9,7 +9,7 @@
   "y": 1080,
   "width": 40,
   "height": 36,
-  "backgroundId": "75ebbd81-f360-4f16-9144-9fa43f7013d9",
+  "backgroundId": "27044630-c8b9-48d0-98c7-e3958fa6e1f2",
   "tilesetId": "",
   "paletteIds": [
     "",
@@ -22,13 +22,16 @@
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "aa0136c0-205f-4f8e-9a0a-b9818f840b64"
     },
     {
       "command": "EVENT_MUSIC_PLAY",
       "args": {
-        "musicId": "0286801f-d6fe-4745-bd27-d30353de1438"
+        "musicId": "0286801f-d6fe-4745-bd27-d30353de1438",
+        "__collapse": true
       },
       "id": "86cf950c-81bb-4947-a8d3-199c7bf00aeb"
     }
@@ -36,5 +39,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0051+0f11+0017+0f!00f+0f!0017+0f!00f+0f!0017+0f!00f+0f!0017+0f!00f+0f!0017+0f!00f+0f2+0016+0f!00f+0f2+0016+0f!0010+0f16+00!0f!0027+0fc+0027+0f!0027+0f!00a+0f11+00c+0f!004+0f17+00c+0f!003+0f18+00c+0f!003+0f18+00c+0f!003+0f18+005+0f9+002+0f15+002+0f!005+0f!004+0f4+002+0f15+002+0f!005+0f!004+0f4+002+0f15+002+0f7+004+0f4+002+0f12+006+0f3+00d+0f5+0013+0f3+0014+0f2+00f+0f2+0026+0f4+0024+0f4+006+0f4+00e+0f2+00d+0f8+002+0f8+001b+0f2+004+0f!00a+0f2+0016+0f!004+0f!006+0f3+0019+0f2+003+0f!0023+0f5+0024+0f2+006+0f2+0023+0f4+001c+0f9+001f+0f!001f+"
+  "collisions": "005a0+"
 }
