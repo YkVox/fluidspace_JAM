@@ -18,7 +18,7 @@
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
   "autoFadeEventCollapse": true,
-  "playerSpriteSheetId": "a609cfb3-325b-4ceb-a17b-66e5fad8dd70",
+  "playerSpriteSheetId": "1fa14a82-fd75-46a6-8a04-5cdf691db28f",
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",

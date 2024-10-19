@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "6b743f68-00e5-467e-9b15-6daa16433604",
-  "name": "character/Ratcockgab-PROFIL-Sheet-export",
-  "symbol": "sprite_character_ratcockgab",
+  "name": "character/unused/Ratcockgab-PROFIL-Sheet-export",
+  "symbol": "sprite_character_ratcockgab_0",
   "numFrames": 124.25,
-  "filename": "character/Ratcockgab-PROFIL-Sheet-export.png",
+  "filename": "character/unused/Ratcockgab-PROFIL-Sheet-export.png",
   "checksum": "2dda4273e404830b7abbb7b3fa1fb2acf8240785",
   "width": 1988,
   "height": 36,

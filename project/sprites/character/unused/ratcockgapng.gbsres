@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "a609cfb3-325b-4ceb-a17b-66e5fad8dd70",
-  "name": "character/Ratcockga.png",
-  "symbol": "sprite_character_ratcockgab_0",
+  "name": "character/unused/Ratcockga.png",
+  "symbol": "sprite_character_ratcockgab",
   "numFrames": 140,
-  "filename": "character/Ratcockgagpng.png",
+  "filename": "character/unused/Ratcockgagpng.png",
   "checksum": "c502196b61b66260db7c38a14380e5660d15b57c",
   "width": 2240,
   "height": 34,
