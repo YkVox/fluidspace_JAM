@@ -45,7 +45,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 27
+                "value": 2
               },
               "moveType": "diagonal",
               "useCollisions": false,
@@ -59,11 +59,11 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 30
+                "value": 29
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 2
               },
               "moveType": "diagonal",
               "useCollisions": false,
