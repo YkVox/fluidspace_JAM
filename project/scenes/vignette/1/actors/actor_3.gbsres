@@ -66,8 +66,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "(EN) Ce robot en forme \nde canette qui \nsait tout faire",
-                "(EN) (même de la drill!) \nest prêt à \nconquérir \nles foyers"
+                "This can-shaped \nrobot that \ndoes it all",
+                "(even drill!)\nis ready to conquer \nevery households"
               ],
               "__section": "text",
               "avatarId": "",

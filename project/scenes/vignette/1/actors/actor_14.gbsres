@@ -66,8 +66,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN \"Ne suivez pas \nles humains, \nfaites du bruit \net faites-le fort.",
-                "EN #PunkÀRats \n#FuckLeSystème"
+                "\"Don't follow \nthe humans, make \nsome noise and\nmake it loud!\"",
+                "#RatsPunks\n#FucktheCistem"
               ],
               "__section": "text",
               "avatarId": "",

@@ -67,9 +67,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN Post: Un reste de \npizza pourrie \ncouvert de \nmoisissures vertes",
-                "EN Légende : \n\"La moisissure, \nc’est la cerise \nsur le gâteau\"",
-                "EN #RatatouilleCauchemar"
+                "«Training partner \nin crime»",
+                "New shocking post\nfrom Marty MacRat\nthe big rat",
+                "accompanied by\nKibicat, the big\ncat, his nemesis"
               ],
               "__section": "text",
               "avatarId": "",

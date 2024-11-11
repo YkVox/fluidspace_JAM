@@ -68,10 +68,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN Poubelle publique \nà Paris. Le sac \ntransparent ",
-                "EN facilite l'examen \ndu contenu et \nempêche la ",
-                "EN dissimulation \nd'engin explosif, \ndans le cadre",
-                "EN de la prévention \ndu terrorisme."
+                "Public trash can\nin Paris. The \ntransparent bag",
+                "facilitates the \nexamination of \nthe contents and",
+                "prevents the \nconcealment of \nexplosive devices,",
+                "as part of\nterrorism \nprevention."
               ],
               "__section": "text",
               "avatarId": "",

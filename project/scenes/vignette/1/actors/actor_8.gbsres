@@ -69,11 +69,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN Post: Des détritus \ncollés sur le dos \ndu rat, ",
-                "EN comme des \naccessoires de \nmode",
-                "EN Légende : \"New \ndrip, straight \nfrom the dump.",
-                "EN Trashcore is the \nnew haute couture\"",
-                "EN #RatFashionWeek \n#TrashStyle"
+                "Post: Trash glued\nto the back \nof a rat,",
+                "like fashion\naccessories",
+                "Caption: \"New \ndrip, straight \nfrom the dump.",
+                "Trashcore is the \nnew haute couture\"",
+                "#RatFashionWeek \n#TrashStyle"
               ],
               "__section": "text",
               "avatarId": "",

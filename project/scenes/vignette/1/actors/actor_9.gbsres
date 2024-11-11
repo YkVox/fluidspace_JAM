@@ -68,10 +68,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN Post: Selfie flou \navec une armée \nde rats tatoués",
-                "EN (ou portant des \naccessoires \nétranges)",
-                "EN Légende : \n\"Fraternité \nsouterraine. \nOn sortira de \nl'ombre",
-                "EN ,et ça va être cho\n#AnarchieDesRats"
+                "Post: Blurry selfies\nwith an army of \ntattooed rats",
+                "(or wearing \nstrange accessories)",
+                "Caption:\n\"Underground brotherhood.\nWe will emerge \nfrom the shadows\"",
+                "\"and sparks \nwill fly !\"\n #RatsArnachy"
               ],
               "__section": "text",
               "avatarId": "",

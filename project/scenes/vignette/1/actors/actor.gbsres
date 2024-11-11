@@ -69,10 +69,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "english trash 1",
-                "english trash 2",
-                "english trash 3",
-                "english trash 4"
+                "Trash \nrenaissance.",
+                "Yesterday food,\ntoday\nashes.",
+                "In this rotten \nworld, you always\ngo up in smoke.",
+                "#SewersApocalypse\n#RatsInFlames\n#FuckTrash"
               ],
               "__section": "text",
               "avatarId": "",
@@ -90,7 +90,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b62d0640-e667-4067-9a1d-bcf07e6fab81"
           }
@@ -123,7 +123,7 @@
         "x": 1,
         "y": 17,
         "location": "background",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "aa214760-e7c1-45c4-bc79-40ef019d4cf9"
     }

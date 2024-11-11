@@ -68,10 +68,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "(EN) Post: Un tunnel \nd’égout tagué de \ngraffitis fluo ",
-                "(EN) avec des symboles \nétranges",
-                "(EN) \"Les murs parlent, frère. Ceux qui comprennent savent.\"",
-                "(EN) #ÉgoutsSacrés \n#LangueDesTunnels\n#ArtDesProfondeurs"
+                "Post : A sewer \ntunnel tagged with \nfluo graffitis\n",
+                "of weird symbols",
+                "\"The Walls speak,\nbro. Those who \nunderstand know.\"",
+                "#SacredSewers\n#TunnelLanguage\n#ArtFromtheDepths"
               ],
               "__section": "text",
               "avatarId": "",

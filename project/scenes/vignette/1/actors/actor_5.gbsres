@@ -67,9 +67,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "(EN) NOUVELLE PROMOTION \nLE MOINS CHER DE \nMARSEILLE !",
-                "(EN) Avec un excellent \nproduit qui défie \ntoute concurrence!",
-                "(EN) LIVRAISON SUR \nMARSEILLE \n& ALENTOURS \nHORAIRE 24/24 \nLIVRAISONS"
+                "SPECIAL OFFER\nMARSEILLE'S \nCHEAPEST!",
+                "With an excellent\nproduct unmatched\nin quality !",
+                "DELIVERY IN \nMARSEILLE \nAND AROUND\n24/7 DELIVERIES"
               ],
               "__section": "text",
               "avatarId": "",

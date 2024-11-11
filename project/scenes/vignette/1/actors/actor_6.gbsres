@@ -67,9 +67,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN - Post: Un rat \ncroquant dans une \npile de fils \nélectriques \nexposés",
-                "EN - Légende : \"Quand \ntu veux te \nreconnecter \nà la matrice...\"",
-                "EN - #Survoltage"
+                "Post: A rat \nmunching\na pile of \nexposed wires ",
+                "Caption : \"When \nyou want \nto reconnect\nto the matrix…\"",
+                "#Overvoltaged"
               ],
               "__section": "text",
               "avatarId": "",

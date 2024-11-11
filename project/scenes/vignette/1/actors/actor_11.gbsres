@@ -40,7 +40,7 @@
               "text": [
                 "Post: Un reste de \npizza pourrie \ncouvert de \nmoisissures vertes",
                 "Légende : \n\"La moisissure, \nc’est la cerise \nsur le gâteau\"",
-                "#RatatouilleCauchemar"
+                "#RatatouilleCauche\n-mar"
               ],
               "__section": "text",
               "avatarId": "",
@@ -67,9 +67,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN Post: Un reste de \npizza pourrie \ncouvert de \nmoisissures vertes",
-                "EN Légende : \n\"La moisissure, \nc’est la cerise \nsur le gâteau\"",
-                "EN #RatatouilleCauchemar"
+                "Post: Rotten pizza\nleftovers covered\nin green mold",
+                "Caption:\n\"Mold is\n the icing\n on the cake\"",
+                "#RatatouilleNight-\nmare"
               ],
               "__section": "text",
               "avatarId": "",

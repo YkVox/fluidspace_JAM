@@ -68,10 +68,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "(EN) Post: Une vieille \ncanette trouvée \ndans un coin sombre",
-                "(EN) \"Les humains disent \n'danger'.",
-                "(EN) Moi je vois un \ntrophée de plus \ndans mon royaume \nsouterrain.\"",
-                "(EN) #ÉgoutsVivant \n#VicesDesTunnels"
+                "Post: An old can \nfound in a \ndark corner",
+                "\"Humans say\n'danger'.",
+                "I see one more \ntrophy in my \nwunderground kingdom.",
+                "#LivingSewers\n#ViceFromtheTunnels"
               ],
               "__section": "text",
               "avatarId": "",

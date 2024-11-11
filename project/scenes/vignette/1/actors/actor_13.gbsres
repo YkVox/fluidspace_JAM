@@ -65,7 +65,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN - Peut-on mieux \nréussir sa vie \nde gabian grâce \naux technologies ?"
+                "Can new techs\nhelp us fulfil our\nseagull lives ?"
               ],
               "__section": "text",
               "avatarId": "",

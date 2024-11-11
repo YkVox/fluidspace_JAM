@@ -69,11 +69,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN Post: Un rat \nportant des \nlunettes de soleil",
-                "EN craquelées devant \nune flaque d’eau \nsale irisée \nd’hydrocarbures",
-                "EN Légende : \"Style \nsur fond de poison.",
-                "EN La beauté c'est \ntoxique,bébé\" ",
-                "EN #ÉgoutsArcEnCiel \n#PoisonAesthetic "
+                "Post: A rat\nwearing broken\nsunglasses",
+                "in front of a \nshimmering \ndirty water puddle\nof hydrocarbons",
+                "Caption: \"Poison \nstyle background\"",
+                "Beauty is\ntoxic, baby\"",
+                "#Rainbow Sewers\n#PoisonAesthetic"
               ],
               "__section": "text",
               "avatarId": "",

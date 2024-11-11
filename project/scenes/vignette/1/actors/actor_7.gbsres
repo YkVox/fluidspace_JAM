@@ -65,7 +65,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "EN- Je me demande ce \nque Tracks vont\nraconter sur nous"
+                "I wonder \nwhat \"Tracks\" \nwill say about us..."
               ],
               "__section": "text",
               "avatarId": "",
