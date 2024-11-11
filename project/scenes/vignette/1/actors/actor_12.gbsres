@@ -17,31 +17,82 @@
   "symbol": "actor_31",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "«Training partner \nin crime»",
-          "Le nouveau post \nchoquant de \nMarty MacRat le \ngros rat",
-          "accompagné \nde Kibicat le \ngros cat, son \nennemi juré. "
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "13f15cbe-cd26-4442-a974-fe3caa655649"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "«Training partner \nin crime»",
+                "Le nouveau post \nchoquant de \nMarty MacRat le \ngros rat",
+                "accompagné \nde Kibicat le \ngros cat, son \nennemi juré. "
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "13f15cbe-cd26-4442-a974-fe3caa655649"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "EN Post: Un reste de \npizza pourrie \ncouvert de \nmoisissures vertes",
+                "EN Légende : \n\"La moisissure, \nc’est la cerise \nsur le gâteau\"",
+                "EN #RatatouilleCauchemar"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1241cac0-1192-4077-8f57-9c39b4604db8"
+          }
+        ]
+      },
+      "id": "f8ce5c6c-8f01-4828-a515-ef5738937b7c"
     }
   ],
   "startScript": [

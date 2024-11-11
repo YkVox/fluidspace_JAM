@@ -17,31 +17,82 @@
   "symbol": "actor_14",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "NOUVELLE PROMOTION \nLE MOINS CHER DE \nMARSEILLE !",
-          "Avec un excellent \nproduit qui défie \ntoute concurrence!",
-          "LIVRAISON SUR \nMARSEILLE \n& ALENTOURS \nHORAIRE 24/24 \nLIVRAISONS"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "44ec059c-e2c4-4d9a-aa79-fb08ac10e0cd"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "NOUVELLE PROMOTION \nLE MOINS CHER DE \nMARSEILLE !",
+                "Avec un excellent \nproduit qui défie \ntoute concurrence!",
+                "LIVRAISON SUR \nMARSEILLE \n& ALENTOURS \nHORAIRE 24/24 \nLIVRAISONS"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "44ec059c-e2c4-4d9a-aa79-fb08ac10e0cd"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "(EN) NOUVELLE PROMOTION \nLE MOINS CHER DE \nMARSEILLE !",
+                "(EN) Avec un excellent \nproduit qui défie \ntoute concurrence!",
+                "(EN) LIVRAISON SUR \nMARSEILLE \n& ALENTOURS \nHORAIRE 24/24 \nLIVRAISONS"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ed3c34ea-29a1-40dc-a457-2d4043f95dfc"
+          }
+        ]
+      },
+      "id": "c9978abc-0a54-4ead-a082-07b525992736"
     }
   ],
   "startScript": [

@@ -17,33 +17,86 @@
   "symbol": "actor_17",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Post: Des détritus \ncollés sur le dos \ndu rat, ",
-          "comme des \naccessoires de \nmode",
-          "Légende : \"New \ndrip, straight \nfrom the dump.",
-          "Trashcore is the \nnew haute couture\"",
-          "#RatFashionWeek \n#TrashStyle"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "84387efd-df4d-43c7-a973-aa1f67b6f34c"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Post: Des détritus \ncollés sur le dos \ndu rat, ",
+                "comme des \naccessoires de \nmode",
+                "Légende : \"New \ndrip, straight \nfrom the dump.",
+                "Trashcore is the \nnew haute couture\"",
+                "#RatFashionWeek \n#TrashStyle"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "84387efd-df4d-43c7-a973-aa1f67b6f34c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "EN Post: Des détritus \ncollés sur le dos \ndu rat, ",
+                "EN comme des \naccessoires de \nmode",
+                "EN Légende : \"New \ndrip, straight \nfrom the dump.",
+                "EN Trashcore is the \nnew haute couture\"",
+                "EN #RatFashionWeek \n#TrashStyle"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "4cfdd28d-562a-4f21-a813-9c63e7ba6c18"
+          }
+        ]
+      },
+      "id": "ec8a5184-c494-4f89-b37c-c919299f97c4"
     }
   ],
   "startScript": [
