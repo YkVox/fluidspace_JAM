@@ -7,6 +7,11 @@
       "symbol": "var_game_finished_0"
     },
     {
+      "id": "1",
+      "name": "LANG",
+      "symbol": "var_lang"
+    },
+    {
       "id": "2",
       "name": "PinPon",
       "symbol": "var_pinpon"
@@ -60,11 +65,6 @@
       "id": "f5dadc80-8d76-4deb-9191-9f76208f3e28__L0",
       "name": "START",
       "symbol": "var_start_0"
-    },
-    {
-      "id": "1",
-      "name": "LANG",
-      "symbol": "var_lang"
     },
     {
       "id": "e55b2630-1bb5-4f6c-9f55-1994b3027cc4__L0",

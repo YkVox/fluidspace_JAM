@@ -3,18 +3,21 @@
   "id": "e55b2630-1bb5-4f6c-9f55-1994b3027cc4",
   "_index": 11,
   "name": "Language",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "69d0baee-bf53-4554-80f3-0d4c7bffbcce",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    null,
+    "default-bg-4"
+  ],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_12",
-  "x": 760,
-  "y": 352,
+  "x": 296,
+  "y": 96,
   "script": [
     {
       "command": "EVENT_MENU",
@@ -59,14 +62,14 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "34adad07-6df0-4f20-b9be-649cde0bd41b",
+              "sceneId": "515a5393-c8dd-479b-ba1b-76f3d78d1dca",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 1
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 1
               },
               "direction": "",
               "fadeSpeed": "2"
