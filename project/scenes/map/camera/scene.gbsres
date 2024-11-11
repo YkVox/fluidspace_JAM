@@ -17,13 +17,13 @@
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "1fa14a82-fd75-46a6-8a04-5cdf691db28f",
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "id": "aa0136c0-205f-4f8e-9a0a-b9818f840b64"
     },
@@ -31,7 +31,7 @@
       "command": "EVENT_MUSIC_PLAY",
       "args": {
         "musicId": "0286801f-d6fe-4745-bd27-d30353de1438",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "86cf950c-81bb-4947-a8d3-199c7bf00aeb"
     }

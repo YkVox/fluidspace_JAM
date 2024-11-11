@@ -108,7 +108,7 @@
           "target": "$self$",
           "property": "ypos"
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "actorId": "player"
       }
     },
@@ -151,7 +151,15 @@
     "b6321ff9-e8ee-43c4-983e-c614dedc036b": {
       "id": "b6321ff9-e8ee-43c4-983e-c614dedc036b",
       "args": {
-        "sceneId": "d30cacec-d07a-49fa-b075-0998ded30f0c"
+        "sceneId": "d30cacec-d07a-49fa-b075-0998ded30f0c",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 255
+        }
       }
     }
   },
