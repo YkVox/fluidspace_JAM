@@ -190,6 +190,12 @@
       "args": {
         "spriteSheetId": "7ae38a02-2524-4179-99f0-f9b636c2e860"
       }
+    },
+    "f114c71e-717e-4756-93a0-ea68d7c77338": {
+      "id": "f114c71e-717e-4756-93a0-ea68d7c77338",
+      "args": {
+        "override": true
+      }
     }
   },
   "symbol": "actor_0",

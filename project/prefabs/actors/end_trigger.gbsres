@@ -36,7 +36,7 @@
           "value": 0
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -55,7 +55,7 @@
               "input": [
                 "a"
               ],
-              "override": true,
+              "override": false,
               "__scriptTabs": "press",
               "__collapse": false
             },
@@ -71,7 +71,7 @@
                         "value": "0"
                       }
                     },
-                    "__collapseElse": true,
+                    "__collapseElse": false,
                     "__collapse": false
                   },
                   "children": {

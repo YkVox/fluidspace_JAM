@@ -19,6 +19,13 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "fff7f27c-d552-4dbc-abec-eb8a93f3e420"
+    },
+    {
       "command": "EVENT_MENU",
       "args": {
         "variable": "1",

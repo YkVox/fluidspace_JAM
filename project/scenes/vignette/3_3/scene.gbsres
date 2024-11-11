@@ -58,7 +58,8 @@
               "closeWhen": "text",
               "closeButton": "a",
               "closeDelayTime": 2,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": false
             },
             "id": "f6fe9e19-efb6-4c13-8829-b5be6150a6f0"
           }
@@ -68,7 +69,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "\nWhen they \naren't here, ",
+                "When they \naren't here, ",
                 "the cockroaches \ndance, sing, \nand feast.",
                 "It may not be the\nOlympic flame,",
                 "but it couldn't be\nany warmer \nthan here !"

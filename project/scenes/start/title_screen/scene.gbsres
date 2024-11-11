@@ -20,7 +20,7 @@
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "3cc896c5-a10d-444c-99d3-2c1a862f8a7e"
     },
