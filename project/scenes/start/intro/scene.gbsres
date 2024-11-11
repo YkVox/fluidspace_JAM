@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "START/Intro",
   "symbol": "scene_3",
-  "x": 712,
-  "y": 312,
+  "x": 1040,
+  "y": 368,
   "width": 20,
   "height": 18,
   "backgroundId": "2228b836-a906-45e2-a6d2-a54790e942d9",
@@ -46,23 +46,65 @@
       "id": "f1cef395-3ed6-41cb-bb5e-3ed30176510b"
     },
     {
-      "command": "EVENT_MENU",
+      "command": "EVENT_IF",
       "args": {
-        "variable": "L0",
-        "items": 2,
-        "option1": "START",
-        "option2": "STARE",
-        "option3": "",
-        "option4": "",
-        "option5": "",
-        "option6": "",
-        "option7": "",
-        "option8": "",
-        "cancelOnB": true,
-        "layout": "menu",
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
         "__collapse": true
       },
-      "id": "a9d05fc7-7c9d-4e7b-ba23-07fe89aa4bb3"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "SCROLLER",
+              "option2": "EPIER",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": false,
+              "layout": "menu"
+            },
+            "id": "91b16473-a652-4ea4-a577-193fe82c7fb0"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "SCROLL",
+              "option2": "STARE",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": false,
+              "layout": "menu"
+            },
+            "id": "6482ed6b-36b2-47da-a049-b95468cb4e98"
+          }
+        ]
+      },
+      "id": "84e633ba-7457-4563-abb9-b298584b777f"
     },
     {
       "command": "EVENT_IF",
@@ -75,10 +117,10 @@
           },
           "valueB": {
             "type": "number",
-            "value": 1
+            "value": 2
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": true
       },
       "children": {

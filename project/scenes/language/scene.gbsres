@@ -1,0 +1,85 @@
+{
+  "_resourceType": "scene",
+  "id": "e55b2630-1bb5-4f6c-9f55-1994b3027cc4",
+  "_index": 11,
+  "name": "Language",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 760,
+  "y": 352,
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "1",
+        "items": 2,
+        "option1": "FRANCAIS",
+        "option2": "ENGLISH",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": false,
+        "layout": "dialogue",
+        "__collapse": true
+      },
+      "id": "9ce73852-f411-4b76-bf90-8cc3e1ec0193"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "eq",
+            "valueA": {
+              "type": "variable",
+              "value": "1"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 0
+            }
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "34adad07-6df0-4f20-b9be-649cde0bd41b",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "855fbe9d-451a-4217-9afc-eea9f22e8910"
+          }
+        ],
+        "false": []
+      },
+      "id": "994eba58-c8c5-4611-a326-7804fc91df88"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
