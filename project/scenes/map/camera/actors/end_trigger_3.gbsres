@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "75e974c4-641e-4036-be9c-9824a835f8b9",
+  "_index": 2,
+  "symbol": "actor_12",
+  "prefabId": "",
   "name": "END_TRIGGER",
+  "coordinateType": "tiles",
+  "x": 19,
+  "y": 34,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "b568c657-ae30-47ee-8011-025f41b6f025",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_12",
   "script": [],
   "startScript": [
     {
@@ -139,8 +144,5 @@
   ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 19,
-  "y": 34,
-  "_index": 2
+  "hit3Script": []
 }

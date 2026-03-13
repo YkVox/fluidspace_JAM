@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2228b836-a906-45e2-a6d2-a54790e942d9",
+  "name": "background_vitrine_rue_overlay",
+  "symbol": "bg_background_vitrine_rue_c",
+  "tileColors": "00ab+04!0029+04!0092+",
+  "filename": "background_vitrine_rue_overlay.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

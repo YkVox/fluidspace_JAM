@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "7400c485-10c7-487f-94d3-53d62f9d501b",
+  "_index": 0,
+  "symbol": "actor_21",
+  "prefabId": "",
   "name": "pinpon",
+  "coordinateType": "tiles",
+  "x": 17,
+  "y": 1,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "313322c2-ea79-4016-9787-c21198032843",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_21",
   "script": [],
   "startScript": [],
   "updateScript": [
@@ -36,8 +41,14 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1,
-        "frames": 30,
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        },
         "__collapse": true
       },
       "id": "7ed02495-b975-49b3-a323-5f73be6c9555"
@@ -60,8 +71,14 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 1,
-        "frames": 30,
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        },
         "__collapse": true
       },
       "id": "93ce66a9-075e-4119-81ef-326bbfaddfb6"
@@ -153,8 +170,5 @@
   ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 17,
-  "y": 1,
-  "_index": 0
+  "hit3Script": []
 }

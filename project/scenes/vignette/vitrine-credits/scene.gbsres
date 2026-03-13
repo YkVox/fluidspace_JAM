@@ -2,21 +2,23 @@
   "_resourceType": "scene",
   "id": "5ad47c21-4d53-4230-bb4f-54ec15da0585",
   "_index": 6,
+  "type": "TOPDOWN",
   "name": "VIGNETTE/VITRINE-CREDITS",
-  "backgroundId": "2228b836-a906-45e2-a6d2-a54790e942d9",
-  "tilesetId": "",
+  "symbol": "scene_5",
+  "x": 1056,
+  "y": 768,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "2228b836-a906-45e2-a6d2-a54790e942d9",
+  "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "default-bg-5"
   ],
   "spritePaletteIds": [],
-  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_5",
-  "x": 1056,
-  "y": 768,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "89ce4e6a-9613-4c31-91cd-f3a36a8a4c3e",
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -131,6 +133,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "89ce4e6a-9613-4c31-91cd-f3a36a8a4c3e",
-  "autoFadeEventCollapse": true
+  "collisions": "00168+"
 }

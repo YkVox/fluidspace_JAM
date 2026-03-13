@@ -1,18 +1,24 @@
 {
   "_resourceType": "actor",
   "id": "edce3505-032c-45dc-9210-cf90a8a6b6da",
+  "_index": 3,
+  "symbol": "actor_24",
+  "prefabId": "7d3f8c78-e819-4e83-bea3-d4f8c98e565e",
   "name": "Cop",
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 12,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "7d3f8c78-e819-4e83-bea3-d4f8c98e565e",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {
     "c07a6985-f755-4c4d-b453-f88fb6c3ebaf": {
       "id": "c07a6985-f755-4c4d-b453-f88fb6c3ebaf",
@@ -50,14 +56,10 @@
       }
     }
   },
-  "symbol": "actor_24",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 9,
-  "y": 12,
-  "_index": 3
+  "hit3Script": []
 }

@@ -2,19 +2,21 @@
   "_resourceType": "scene",
   "id": "771955a3-3d7f-4412-88a5-75b2604ff0e0",
   "_index": 9,
-  "name": "VIGNETTE/3_3",
-  "backgroundId": "53e914fb-c7db-450f-9bb4-3298e61839be",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "00168+",
-  "autoFadeSpeed": 1,
+  "name": "VIGNETTE/3_3",
   "symbol": "scene_10",
   "x": 848,
   "y": 736,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "53e914fb-c7db-450f-9bb4-3298e61839be",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "3a95b307-462d-4bfc-a699-703be2cd9fa3",
   "script": [
     {
       "command": "EVENT_IF",
@@ -101,6 +103,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "3a95b307-462d-4bfc-a699-703be2cd9fa3",
-  "autoFadeEventCollapse": true
+  "collisions": "00168+"
 }
