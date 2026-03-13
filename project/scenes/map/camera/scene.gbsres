@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "MAP/CAMERA",
   "symbol": "scene_8",
-  "x": 792,
-  "y": 1080,
+  "x": 624,
+  "y": 1048,
   "width": 40,
   "height": 36,
   "backgroundId": "27044630-c8b9-48d0-98c7-e3958fa6e1f2",
@@ -34,6 +34,31 @@
         "__collapse": true
       },
       "id": "86cf950c-81bb-4947-a8d3-199c7bf00aeb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "POV: CAMERA"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8f841afe-eede-4c11-9456-e0302161fa49"
     }
   ],
   "playerHit1Script": [],

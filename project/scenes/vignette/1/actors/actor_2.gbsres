@@ -17,32 +17,84 @@
   "symbol": "actor_3",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Post: Un tunnel \nd’égout tagué de \ngraffitis fluo ",
-          "avec des symboles \nétranges",
-          "\"Les murs parlent, frère. Ceux qui comprennent savent.\"",
-          "#ÉgoutsSacrés \n#LangueDesTunnels\n#ArtDesProfondeurs"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "ae5e402f-2d60-423c-a6b1-d29de45279c6"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Post: Un tunnel \nd’égout tagué de \ngraffitis fluo ",
+                "avec des symboles \nétranges",
+                "\"Les murs parlent,\nfrère. Ceux qui \ncomprennent savent.\"",
+                "#ÉgoutsSacrés \n#LangueDesTunnels\n#ArtDesProfondeurs"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ae5e402f-2d60-423c-a6b1-d29de45279c6"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Post : A sewer \ntunnel tagged with \nfluo graffitis\n",
+                "of weird symbols",
+                "\"The Walls speak,\nbro. Those who \nunderstand know.\"",
+                "#SacredSewers\n#TunnelLanguage\n#ArtFromtheDepths"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "51cb3b3f-3ca5-490f-8196-46456e92e92d"
+          }
+        ]
+      },
+      "id": "d57224ef-c062-4194-8657-985c464b6711"
     }
   ],
   "startScript": [

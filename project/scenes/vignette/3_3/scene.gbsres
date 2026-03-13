@@ -17,32 +17,85 @@
   "y": 736,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Quand ils ne sont \npas là, les \ncafards dansent,",
-          "chantent, et font \nde bons repas. \n",
-          "C'est peut-être \npas la flamme \ndes JO,  ",
-          "mais y'a pas plus \nchaleureux qu'ici !"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 5,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 3,
-        "position": "top",
-        "clearPrevious": true,
-        "showFrame": true,
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "text",
-        "closeButton": "a",
-        "closeDelayTime": 2,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "f6fe9e19-efb6-4c13-8829-b5be6150a6f0"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Quand ils ne sont \npas là, les \ncafards dansent,",
+                "chantent, et font \nde bons repas. \n",
+                "C'est peut-être \npas la flamme \ndes JO,  ",
+                "mais y'a pas plus \nchaleureux qu'ici !"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 5,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 3,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 2,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "f6fe9e19-efb6-4c13-8829-b5be6150a6f0"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "When they \naren't here, ",
+                "the cockroaches \ndance, sing, \nand feast.",
+                "It may not be the\nOlympic flame,",
+                "but it couldn't be\nany warmer \nthan here !"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 5,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 3,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": true,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 2,
+              "closeDelayFrames": 30
+            },
+            "id": "d8cb2949-6e86-4f32-81e0-8558f8c83588"
+          }
+        ]
+      },
+      "id": "817d419a-7b43-4ca9-b90d-87b01f8140d1"
     }
   ],
   "playerHit1Script": [],

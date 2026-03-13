@@ -1,0 +1,95 @@
+{
+  "_resourceType": "scene",
+  "id": "e55b2630-1bb5-4f6c-9f55-1994b3027cc4",
+  "_index": 11,
+  "type": "TOPDOWN",
+  "name": "Language",
+  "symbol": "scene_12",
+  "x": 296,
+  "y": 96,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "69d0baee-bf53-4554-80f3-0d4c7bffbcce",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "default-bg-4"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "fff7f27c-d552-4dbc-abec-eb8a93f3e420"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "1",
+        "items": 2,
+        "option1": "FRANCAIS",
+        "option2": "ENGLISH",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": false,
+        "layout": "dialogue",
+        "__collapse": true
+      },
+      "id": "9ce73852-f411-4b76-bf90-8cc3e1ec0193"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "eq",
+            "valueA": {
+              "type": "variable",
+              "value": "1"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 0
+            }
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "515a5393-c8dd-479b-ba1b-76f3d78d1dca",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 1
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "855fbe9d-451a-4217-9afc-eea9f22e8910"
+          }
+        ],
+        "false": []
+      },
+      "id": "994eba58-c8c5-4611-a326-7804fc91df88"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "00168+"
+}

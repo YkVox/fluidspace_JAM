@@ -17,32 +17,84 @@
   "symbol": "actor_9",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Post: Une vieille \ncanette trouvée \ndans un coin sombre",
-          "\"Les humains disent \n'danger'.",
-          "Moi je vois un \ntrophée de plus \ndans mon royaume \nsouterrain.\"",
-          "#ÉgoutsVivant \n#VicesDesTunnels"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "115de90a-0143-44cd-9137-89c2f4e0e330"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Post: Une vieille \ncanette trouvée \ndans un coin sombre",
+                "\"Les humains disent \n'danger'.",
+                "Moi je vois un \ntrophée de plus \ndans mon royaume \nsouterrain.\"",
+                "#ÉgoutsVivant \n#VicesDesTunnels"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "115de90a-0143-44cd-9137-89c2f4e0e330"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Post: An old can \nfound in a \ndark corner",
+                "\"Humans say\n'danger'.",
+                "I see one more \ntrophy in my \nwunderground kingdom.",
+                "#LivingSewers\n#ViceFromtheTunnels"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f0dada8d-416f-4214-a971-a30abba0cb04"
+          }
+        ]
+      },
+      "id": "3d20aa23-5bd5-435e-8ba4-9fead9347633"
     }
   ],
   "startScript": [
