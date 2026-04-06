@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "00610c2f-cf6e-4a51-a8cb-1586eab988af",
+  "name": "limpasse_titre",
+  "symbol": "bg_limpasse_titre",
+  "tileColors": "",
+  "filename": "limpasse_titre.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

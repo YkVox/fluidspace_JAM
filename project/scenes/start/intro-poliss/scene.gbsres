@@ -2,23 +2,25 @@
   "_resourceType": "scene",
   "id": "f5dadc80-8d76-4deb-9191-9f76208f3e28",
   "_index": 10,
+  "type": "TOPDOWN",
   "name": "START/Intro-poliss",
-  "backgroundId": "42288b5e-a69c-4b1f-8174-8ff63187be94",
-  "tilesetId": "",
+  "symbol": "scene_11",
+  "x": 1216,
+  "y": 328,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "42288b5e-a69c-4b1f-8174-8ff63187be94",
+  "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "default-bg-4"
   ],
   "spritePaletteIds": [
     "default-bg-4"
   ],
-  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_11",
-  "x": 1216,
-  "y": 328,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "313322c2-ea79-4016-9787-c21198032843",
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -44,6 +46,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false,
-  "playerSpriteSheetId": "313322c2-ea79-4016-9787-c21198032843"
+  "collisions": "00168+"
 }

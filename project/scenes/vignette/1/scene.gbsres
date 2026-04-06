@@ -2,23 +2,25 @@
   "_resourceType": "scene",
   "id": "5273e55b-3efe-4fa4-bc01-d5c2479f792a",
   "_index": 3,
+  "type": "TOPDOWN",
   "name": "VIGNETTE/1",
-  "backgroundId": "36eef72b-d78b-4431-a844-6b919aa50f47",
-  "tilesetId": "",
+  "symbol": "scene_4",
+  "x": 264,
+  "y": 520,
   "width": 20,
   "height": 108,
-  "type": "TOPDOWN",
+  "backgroundId": "36eef72b-d78b-4431-a844-6b919aa50f47",
+  "tilesetId": "",
+  "colorModeOverride": "none",
   "paletteIds": [
     "default-bg-5"
   ],
   "spritePaletteIds": [
     "default-bg-6"
   ],
-  "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_4",
-  "x": 264,
-  "y": 520,
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "23c78c7b-b85f-4fb7-b001-82b2682674c9",
   "script": [
     {
       "command": "EVENT_MUSIC_STOP",
@@ -37,6 +39,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "23c78c7b-b85f-4fb7-b001-82b2682674c9",
-  "autoFadeEventCollapse": true
+  "collisions": "00168+"
 }
